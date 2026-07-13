@@ -1,0 +1,50 @@
+{
+  "region_name": "Toronto",
+  "country_name": "Canada",
+  "level": "municipality",
+  "last_updated": "2026-07-12",
+  "version": 1,
+  "source_url": "https://www.toronto.ca/services-payments/recycling-organics-garbage/",
+  "items": {
+    "plastic_bottle": {
+      "bin": "recycling",
+      "notes": "Empty and rinse before placing in blue bin"
+    },
+    "aluminum_can": {
+      "bin": "recycling",
+      "notes": "Rinse before disposal"
+    },
+    "glass_jar": {
+      "bin": "recycling",
+      "notes": "Remove lid and rinse; lid can be recycled separately if metal"
+    },
+    "cardboard": {
+      "bin": "recycling",
+      "notes": "Flatten before placing in blue bin"
+    },
+    "paper": {
+      "bin": "recycling",
+      "notes": "Keep dry and free of food residue"
+    },
+    "styrofoam": {
+      "bin": "recycling",
+      "notes": "Accepted as part of Toronto's expanded 2026 Blue Box materials; rinse if food-contaminated"
+    },
+    "food_waste": {
+      "bin": "compost",
+      "notes": "Place in green bin; use certified compostable liner bags only, no plastic bags"
+    },
+    "plastic_bag": {
+      "bin": "garbage",
+      "notes": "Not accepted curbside; check retailer drop-off bins for soft plastics"
+    },
+    "diapers": {
+      "bin": "garbage",
+      "notes": "Not recyclable or compostable through city programs"
+    },
+    "battery": {
+      "bin": "consult_local_guide",
+      "notes": "Drop off at Toronto Community Environment Days or participating retailers"
+    }
+  }
+}
