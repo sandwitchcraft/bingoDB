@@ -7,47 +7,47 @@
   "location_path": ["canada", "ontario", "toronto"],
   "items": {
     "plastic-bottle": {
-      "display_name": "Plastic Bottleeee",
+      "display_name": "Plastic Bottle",
       "bin": "recycling",
       "description": "Rinse and place loose in the recycling bin. Do a separate search for bottle caps to see if they are accepted in your area."
     },
     "glass-bottle": {
-      "display_name": "Glass Bottleeee",
+      "display_name": "Glass Bottle",
       "bin": "recycling",
       "description": "Clean glass bottles should go in recycling. Do a separate search for bottle caps to see if they are accepted in your area."
     },
     "styrofoam-cup": {
-      "display_name": "Styrofoam Cupeee",
+      "display_name": "Styrofoam Cup",
       "bin": "garbage",
       "description": "Styrofoam cups are generally not accepted in recycling and should go in the garbage."
     },
     "paper-cup": {
-      "display_name": "Paper Cupeee",
+      "display_name": "Paper Cup",
       "bin": "garbage",
       "description": "Paper cups are usually lined with a non-recyclable chemical coating; place in garbage."
     },
     "styrofoam-takeout-container": {
-      "display_name": "Styrofoam Takeout Containereee",
+      "display_name": "Styrofoam Takeout Container",
       "bin": "garbage",
       "description": "Takeout containers made of styrofoam should be placed in the garbage."
     },
     "cardboard-box": {
-      "display_name": "Cardboard Boxeee",
+      "display_name": "Cardboard Box",
       "bin": "recycling",
       "description": "Flatten and place clean cardboard boxes in recycling. Remove plastic packaging first."
     },
     "cardboard-takeout-container": {
-      "display_name": "Cardboard Takeout Containereee",
+      "display_name": "Cardboard Takeout Container",
       "bin": "recycling",
       "description": "Clean, dry cardboard takeout containers can usually go in recycling if they are not contaminated with food."
     },
     "apple-core": {
-      "display_name": "Apple Coreeee",
+      "display_name": "Apple Core",
       "bin": "organics",
       "description": "Food scraps such as apple cores belong in the organics or green bin."
     },
     "disposable-batteries": {
-      "display_name": "Disposable Batterieseee",
+      "display_name": "Disposable Batteries",
       "bin": "check-local-guide",
       "description": "Disposable batteries should be taken to a household hazardous waste drop-off location rather than placed in regular bins."
     }
