@@ -1,10 +1,10 @@
 {
-  "district_name": "Toronto",
-  "provider_name": "City of Toronto Waste Management Authority",
-  "site_url": "https://www.toronto.ca/services-payments/recycling-organics-garbage/",
+  "district_name": "Halton",
+  "provider_name": "Halton Waste Management Authority",
+  "site_url": "https://www.halton.ca/for-residents/recycling-waste",
   "last_updated": "2026-07-22",
   "version": "1.0.0",
-  "location_path": ["canada", "ontario", "toronto"],
+  "location_path": ["canada", "ontario", "halton"],
   "items": {
     "plastic-bottle": {
       "display_name": "Plastic Bottle",
@@ -16,15 +16,15 @@
       "bin": "recycling",
       "description": "Clean glass bottles should go in recycling. Do a separate search for bottle caps to see if they are accepted in your area."
     },
-    "styrofoam-cup": {
-      "display_name": "Styrofoam Cup",
-      "bin": "garbage",
-      "description": "Styrofoam cups are generally not accepted in recycling and should go in the garbage."
-    },
     "paper-cup": {
       "display_name": "Paper Cup",
       "bin": "garbage",
       "description": "Paper cups are usually lined with a non-recyclable chemical coating; place in garbage."
+    },
+    "styrofoam-cup": {
+      "display_name": "Styrofoam Cup",
+      "bin": "garbage",
+      "description": "Styrofoam cups are generally not accepted in recycling and should go in the garbage."
     },
     "styrofoam-takeout-container": {
       "display_name": "Styrofoam Takeout Container",
@@ -43,12 +43,12 @@
     },
     "apple-core": {
       "display_name": "Apple Core",
-      "bin": "organics",
+      "bin": "compost",
       "description": "Food scraps such as apple cores belong in the organics or green bin."
     },
     "disposable-batteries": {
       "display_name": "Disposable Batteries",
-      "bin": "check-local-guide",
+      "bin": "consult-local-guide",
       "description": "Disposable batteries should be taken to a household hazardous waste drop-off location rather than placed in regular bins."
     }
   }
