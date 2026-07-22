@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "generated_at": "2026-07-22",
+  "regions": [
+    {
+      "id": "canada/ontario/halton",
+      "display_name": "Halton",
+      "level": "region",
+      "path": ["canada", "ontario", "halton"],
+      "parents": ["Canada", "Ontario"],
+      "url": "data/canada/ontario/halton/halton.json"
+    },
+    {
+      "id": "canada/ontario/toronto",
+      "display_name": "Toronto",
+      "level": "municipality",
+      "path": ["canada", "ontario", "toronto"],
+      "parents": ["Canada", "Ontario"],
+      "url": "data/canada/ontario/toronto/toronto.json"
+    }
+  ]
+}
