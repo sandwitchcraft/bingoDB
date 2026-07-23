@@ -3,12 +3,44 @@
   "generated_at": "2026-07-22",
   "regions": [
     {
+      "id": "canada/ontario/durham",
+      "display_name": "Durham",
+      "level": "region",
+      "path": ["canada", "ontario", "durham"],
+      "parents": ["Canada", "Ontario"],
+      "url": "data/canada/ontario/durham/durham.json"
+    },
+    {
       "id": "canada/ontario/halton",
       "display_name": "Halton",
       "level": "region",
       "path": ["canada", "ontario", "halton"],
       "parents": ["Canada", "Ontario"],
       "url": "data/canada/ontario/halton/halton.json"
+    },
+    {
+      "id": "canada/ontario/oshawa",
+      "display_name": "Oshawa",
+      "level": "municipality",
+      "path": ["canada", "ontario", "oshawa"],
+      "parents": ["Canada", "Ontario"],
+      "url": "data/canada/ontario/oshawa/oshawa.json"
+    },
+    {
+      "id": "canada/ontario/ottawa",
+      "display_name": "Ottawa",
+      "level": "municipality",
+      "path": ["canada", "ontario", "ottawa"],
+      "parents": ["Canada", "Ontario"],
+      "url": "data/canada/ontario/ottawa/ottawa.json"
+    },
+    {
+      "id": "canada/ontario/peel",
+      "display_name": "Peel",
+      "level": "region",
+      "path": ["canada", "ontario", "peel"],
+      "parents": ["Canada", "Ontario"],
+      "url": "data/canada/ontario/peel/peel.json"
     },
     {
       "id": "canada/ontario/toronto",

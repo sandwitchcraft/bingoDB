@@ -1,10 +1,10 @@
 {
-  "district_name": "Halton",
-  "provider_name": "Halton Waste Management Authority",
-  "site_url": "https://www.halton.ca/for-residents/recycling-waste",
+  "district_name": "Ottawa",
+  "provider_name": "City of Ottawa Solid Waste Services",
+  "site_url": "https://ottawa.ca/en/garbage-and-recycling",
   "last_updated": "2026-07-22",
   "version": "1.0.0",
-  "location_path": ["canada", "ontario", "halton"],
+  "location_path": ["canada", "ontario", "ottawa"],
   "items": {
     "plastic-bottle": {
       "display_name": "Plastic Bottle",
@@ -16,15 +16,15 @@
       "bin": "recycling",
       "description": "Clean glass bottles should go in recycling. Do a separate search for bottle caps to see if they are accepted in your area."
     },
-    "paper-cup": {
-      "display_name": "Paper Cup",
-      "bin": "garbage",
-      "description": "Paper cups are usually lined with a non-recyclable chemical coating; place in garbage."
-    },
     "styrofoam-cup": {
       "display_name": "Styrofoam Cup",
       "bin": "garbage",
       "description": "Styrofoam cups are generally not accepted in recycling and should go in the garbage."
+    },
+    "paper-cup": {
+      "display_name": "Paper Cup",
+      "bin": "garbage",
+      "description": "Paper cups are usually lined with a non-recyclable chemical coating; place in garbage."
     },
     "styrofoam-takeout-container": {
       "display_name": "Styrofoam Takeout Container",
