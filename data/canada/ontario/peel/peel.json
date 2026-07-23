@@ -48,7 +48,7 @@
     },
     "disposable-batteries": {
       "display_name": "Disposable Batteries",
-      "bin": "check-local-guide",
+      "bin": "consult-local-guide",
       "description": "Disposable batteries should be taken to a household hazardous waste drop-off location rather than placed in regular bins."
     }
   }
