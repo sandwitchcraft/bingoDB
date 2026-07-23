@@ -19,14 +19,6 @@
       "url": "data/canada/ontario/halton/halton.json"
     },
     {
-      "id": "canada/ontario/oshawa",
-      "display_name": "Oshawa",
-      "level": "municipality",
-      "path": ["canada", "ontario", "oshawa"],
-      "parents": ["Canada", "Ontario"],
-      "url": "data/canada/ontario/oshawa/oshawa.json"
-    },
-    {
       "id": "canada/ontario/ottawa",
       "display_name": "Ottawa",
       "level": "municipality",
