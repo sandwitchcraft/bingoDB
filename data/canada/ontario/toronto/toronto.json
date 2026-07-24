@@ -19,7 +19,7 @@
     "glass-jar": {
       "display_name": "Glass Jar",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Lids off. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Lids off. Do NOT recycle alcoholic beverage containers."
     },
     "aluminum-food-tray": {
       "display_name": "Aluminum Food Tray",
@@ -37,9 +37,9 @@
       "description": "Empty and free from food residue."
     },
     "aluminum-beverage-can": {
-      "display_name": "Aluminum Beverage Can (non-alcoholic)",
+      "display_name": "Aluminum Beverage Can",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Do NOT recycle alcoholic beverage containers."
     },
     "aluminum-foil": {
       "display_name": "Aluminum Foil",
@@ -59,7 +59,7 @@
     "food-can-metal": {
       "display_name": "Food Can (metal)",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Do NOT recycle alcoholic beverage containers."
     },
     "solid-styrofoam-packaging": {
       "display_name": "Solid Styrofoam Packaging",
@@ -156,12 +156,12 @@
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
-    "plant-pot-(plastic)": {
+    "plant-pot-plastic": {
       "display_name": "Plant Pot (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food and residue."
     },
-    "medication-bottle-(plastic)": {
+    "medication-bottle-plastic": {
       "display_name": "Medication Bottle (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food and residue. Keep lids on."
@@ -186,12 +186,7 @@
       "bin": "recycling",
       "description": "Empty and free from residue. Keep lids on."
     },
-    "plastic-beverage-cup": {
-      "display_name": "Plastic Beverage Cup",
-      "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on."
-    },
-    "egg-container-(plastic)": {
+    "egg-container-plastic": {
       "display_name": "Egg Container (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on."
@@ -206,55 +201,55 @@
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on."
     },
-    "plastic-beverage-cup-non-alcoholic": {
-      "display_name": "Plastic Beverage Cup (non-alcoholic)",
+    "plastic-beverage-cup": {
+      "display_name": "Plastic Beverage Cup",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
-    "food-tray-(plastic)": {
+    "food-tray-plastic": {
       "display_name": "Food Tray (plastic)",
       "bin": "recycling",
       "description": "Plastic food trays (salad, bakery items, etc.) should be empty from food residue."
     },
     "plastic-beverage-bottle": {
-      "display_name": "Plastic Beverage Bottle (non-alcoholic)",
+      "display_name": "Plastic Beverage Bottle",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
-    "mouthwash-bottle-(plastic)": {
+    "mouthwash-bottle-plastic": {
       "display_name": "Mouthwash Bottle (plastic)",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "dish-soap-bottle": {
       "display_name": "Dish Soap Bottle",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
-    "condiment-bottle-(plastic)": {
+    "condiment-bottle-plastic": {
       "display_name": "Condiment Bottle (plastic)",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
-    "salad-dressing-bottle-(plastic)": {
+    "salad-dressing-bottle": {
       "display_name": "Salad Dressing Bottle (plastic)",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "shampoo-bottle": {
       "display_name": "Shampoo Bottle",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "household-cleaner-jug": {
       "display_name": "Household Cleaner Jug",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "laundry-detergent-jug": {
       "display_name": "Laundry Detergent Jug",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "shredded-paper": {
       "display_name": "Shredded Paper",
@@ -301,7 +296,7 @@
       "bin": "recycling",
       "description": "Empty. Remove rope handle from bags."
     },
-    "flour-bag-(paper)": {
+    "flour-bag-paper": {
       "display_name": "Flour Bag (paper)",
       "bin": "recycling",
       "description": "Empty."
@@ -316,7 +311,7 @@
       "bin": "recycling",
       "description": ""
     },
-    "prescription-bag-(paper)": {
+    "prescription-bag-paper": {
       "display_name": "Prescription Bag (paper)",
       "bin": "recycling",
       "description": "Empty."
@@ -324,37 +319,37 @@
     "sauce-carton": {
       "display_name": "Sauce Carton",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "soup-carton": {
       "display_name": "Soup Carton",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "sugar-carton": {
       "display_name": "Sugar Carton",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "coffee-creamer-carton": {
       "display_name": "Coffee Creamer Carton",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "milk-carton": {
       "display_name": "Milk Carton",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "juice-carton": {
       "display_name": "Juice Carton",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "beverage-carton": {
       "display_name": "Beverage Carton",
       "bin": "recycling",
-      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+      "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "hot-beverage-cup": {
       "display_name": "Hot Beverage Cup",
@@ -546,20 +541,10 @@
       "bin": "garbage",
       "description": "Dryer sheets should be disposed of in the garbage."
     },
-    "plastic-beverage-bottle-alcoholic": {
-      "display_name": "Plastic Beverage Bottle (alcoholic)",
-      "bin": "garbage",
-      "description": "Alcoholic beverage containers must be disposed of in the garbage."
-    },
     "styrofoam-packing-pellets": {
       "display_name": "Styrofoam Packing Pellets",
       "bin": "recycling",
       "description": "Packing pellets can be recycled in Ontario."
-    },
-    "glass-bottle-alcoholic": {
-      "display_name": "Glass Bottle (alcoholic)",
-      "bin": "garbage",
-      "description": "Alcoholic beverage containers are not recyclable."
     },
     "house-plants": {
       "display_name": "House Plants",
