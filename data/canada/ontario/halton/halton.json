@@ -1,55 +1,855 @@
 {
   "district_name": "Halton",
-  "provider_name": "Halton Waste Management Authority",
+  "provider_name": "Halton Municipality Waste Management Authority",
   "site_url": "https://www.halton.ca/for-residents/recycling-waste",
-  "last_updated": "2026-07-22",
-  "version": "1.0.0",
+  "last_updated": "2026-07-23",
+  "version": "1.0.1",
   "location_path": ["canada", "ontario", "halton"],
   "items": {
-    "plastic-bottle": {
-      "display_name": "Plastic Bottle",
+    "aerosol-spray-can": {
+      "display_name": "Aerosol Spray Can",
       "bin": "recycling",
-      "description": "Rinse and place loose in the recycling bin. Do a separate search for bottle caps to see if they are accepted in your area."
+      "description": "Ensure spray cans are empty, and recycle with the lid on."
     },
-    "glass-bottle": {
-      "display_name": "Glass Bottle",
+    "aluminum-beverage-can": {
+      "display_name": "Aluminum Beverage Can (non-alcoholic)",
       "bin": "recycling",
-      "description": "Clean glass bottles should go in recycling. Do a separate search for bottle caps to see if they are accepted in your area."
+      "description": "Empty and free from food residue. Do not include alcoholic beverage containers."
     },
-    "paper-cup": {
-      "display_name": "Paper Cup",
-      "bin": "garbage",
-      "description": "Paper cups are usually lined with a non-recyclable chemical coating; place in garbage."
+    "aluminum-foil": {
+      "display_name": "Aluminum Foil",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Ball up aluminum foil."
     },
-    "styrofoam-cup": {
-      "display_name": "Styrofoam Cup",
-      "bin": "garbage",
-      "description": "Styrofoam cups are generally not accepted in recycling and should go in the garbage."
+    "aluminum-food-tray": {
+      "display_name": "Aluminum Food Tray",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
     },
-    "styrofoam-takeout-container": {
-      "display_name": "Styrofoam Takeout Container",
+    "baby-wipes": {
+      "display_name": "Baby Wipes",
       "bin": "garbage",
-      "description": "Takeout containers made of styrofoam should be placed in the garbage."
+      "description": "Baby Wipes should be disposed of in the garbage. DO NOT flush them down the toilet."
+    },
+    "batteries-car": {
+      "display_name": "Batteries (car)",
+      "bin": "consult-local-guide",
+      "description": "Car batteries (and other lead acid batteries) should be dropped off at a Halton Hazardous Waste Depot."
+    },
+    "batteries-cell-phone": {
+      "display_name": "Batteries (cell-phone)",
+      "bin": "consult-local-guide",
+      "description": "Cell-phone batteries can be dropped off at a Halton Battery Recycling Depot."
+    },
+    "batteries-disposable": {
+      "display_name": "Batteries (disposable)",
+      "bin": "consult-local-guide",
+      "description": "Disposable batteries can be dropped off at a Halton Battery Recycling Depot."
+    },
+    "batteries-lithium-ion": {
+      "display_name": "Batteries (lithium-ion)",
+      "bin": "consult-local-guide",
+      "description": "Li-Ion batteries can be dropped off at a Halton Battery Recycling Depot."
+    },
+    "batteries-rechargeable": {
+      "display_name": "Batteries (rechargeable)",
+      "bin": "consult-local-guide",
+      "description": "Rechargeable batteries can be dropped off at a Halton Battery Recycling Depot."
+    },
+    "beverage-carton": {
+      "display_name": "Beverage Carton",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "bread-bag-plastic": {
+      "display_name": "Bread Bag (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "brochure": {
+      "display_name": "Brochure",
+      "bin": "recycling",
+      "description": "Empty."
+    },
+    "bubble-wrap-plastic": {
+      "display_name": "Bubble Wrap (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "cables-electronic": {
+      "display_name": "Cables (electronic)",
+      "bin": "consult-local-guide",
+      "description": "Electronic cables are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "cardboard-box": {
       "display_name": "Cardboard Box",
       "bin": "recycling",
-      "description": "Flatten and place clean cardboard boxes in recycling. Remove plastic packaging first."
+      "description": "Should be flattened and no bigger than 60cm x 60cm."
     },
-    "cardboard-takeout-container": {
-      "display_name": "Cardboard Takeout Container",
+    "ceramic-dishes": {
+      "display_name": "Ceramic Dishes",
+      "bin": "garbage",
+      "description": "Ceramic dishes should be donated, or disposed of in the garbage. Be mindful of shards that can cut the bag open."
+    },
+    "cereal": {
+      "display_name": "Cereal",
+      "bin": "compost",
+      "description": "Cereal is compostable :)"
+    },
+    "cereal-bag-plastic": {
+      "display_name": "Cereal Bag (plastic)",
       "bin": "recycling",
-      "description": "Clean, dry cardboard takeout containers can usually go in recycling if they are not contaminated with food."
+      "description": "Empty and free from food residue."
     },
-    "apple-core": {
-      "display_name": "Apple Core",
-      "bin": "organics",
-      "description": "Food scraps such as apple cores belong in the organics or green bin."
+    "cereal-box": {
+      "display_name": "Cereal Box",
+      "bin": "recycling",
+      "description": "Should be emptied and flattened."
     },
-    "disposable-batteries": {
-      "display_name": "Disposable Batteries",
+    "chip-bag": {
+      "display_name": "Chip Bag",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "chopsticks-wooden": {
+      "display_name": "Chopsticks (wooden)",
+      "bin": "compost",
+      "description": "Wooden chopsticks can be composted in Halton."
+    },
+    "cigarette-butts": {
+      "display_name": "Cigarette Butts",
+      "bin": "garbage",
+      "description": "Cigarette butts cannot be composted and should be disposed of in the garbage."
+    },
+    "cigarettes": {
+      "display_name": "Cigarettes",
+      "bin": "garbage",
+      "description": "Cigarettes cannot be composted and should be disposed of in the garbage."
+    },
+    "coffee-bag-flexible-plastic": {
+      "display_name": "Coffee Bag (flexible plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "coffee-creamer-carton": {
+      "display_name": "Coffee Creamer Carton",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "coffee-grounds": {
+      "display_name": "Coffee Grounds",
+      "bin": "compost",
+      "description": "Coffee grounds are compostable, and should not be washed down the sink. Be kind to your neighbour."
+    },
+    "coffee-tin-metal": {
+      "display_name": "Coffee Tin (metal)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "compostable-plastic-containers": {
+      "display_name": "Compostable Plastic Containers",
+      "bin": "garbage",
+      "description": "Compostable plastic containers (even if they say they ARE compostable) are NOT accepted by Halton Waste Management and are very difficult to compost."
+    },
+    "compostable-plastic-cutlery": {
+      "display_name": "Compostable Plastic Cutlery",
+      "bin": "garbage",
+      "description": "Compostable plastic cutlery (even if they say they ARE compostable) are NOT accepted by Halton Waste Management and are very difficult to compost."
+    },
+    "computers": {
+      "display_name": "Computers",
       "bin": "consult-local-guide",
-      "description": "Disposable batteries should be taken to a household hazardous waste drop-off location rather than placed in regular bins."
+      "description": "Computers are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "condiment-bottle-(plastic)": {
+      "display_name": "Condiment Bottle (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "cookie-dough-package": {
+      "display_name": "Cookie Dough Package",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Remove lids."
+    },
+    "cookie-tin-metal": {
+      "display_name": "Cookie Tin (metal)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "cotton-swabs": {
+      "display_name": "Cotton Swabs",
+      "bin": "garbage",
+      "description": "Cotton swabs should be disposed of in the garbage."
+    },
+    "dairy-products": {
+      "display_name": "Dairy Products",
+      "bin": "compost",
+      "description": "Milks, cheeses, yogurts, and other dairy products can be composted."
+    },
+    "deli-pouch-flexible-plastic": {
+      "display_name": "Deli Pouch (flexible plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "dental-floss": {
+      "display_name": "Dental Floss",
+      "bin": "garbage",
+      "description": "Dental floss should be disposed of in the garbage."
+    },
+    "deodorant-tube": {
+      "display_name": "Deodorant Tube",
+      "bin": "recycling",
+      "description": "Empty and free from residue. Keep lids on."
+    },
+    "diapers": {
+      "display_name": "Diapers",
+      "bin": "garbage",
+      "description": "Diapers can be composted in Toronto."
+    },
+    "dish-soap-bottle": {
+      "display_name": "Dish Soap Bottle",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "dry-cleaning-bag-plastic": {
+      "display_name": "Dry Cleaning Bag (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "dryer-lint": {
+      "display_name": "Dryer Lint",
+      "bin": "garbage",
+      "description": "Dryer lint should be disposed of in the garbage."
+    },
+    "dryer-sheets": {
+      "display_name": "Dryer Sheets",
+      "bin": "garbage",
+      "description": "Dryer sheets should be disposed of in the garbage."
+    },
+    "e-readers": {
+      "display_name": "E-Readers",
+      "bin": "consult-local-guide",
+      "description": "E-readers are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "egg-carton": {
+      "display_name": "Egg Carton",
+      "bin": "recycling",
+      "description": "Should be emptied before recycling."
+    },
+    "egg-container-(plastic)": {
+      "display_name": "Egg Container (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on."
+    },
+    "egg-shells": {
+      "display_name": "Egg Shells",
+      "bin": "compost",
+      "description": "Eggs (both shells and eggs) can be composted."
+    },
+    "egg": {
+      "display_name": "Eggs",
+      "bin": "compost",
+      "description": "Eggs (both shells and eggs) can be composted."
+    },
+    "envelope": {
+      "display_name": "Envelope",
+      "bin": "recycling",
+      "description": "Empty."
+    },
+    "face-masks-medical": {
+      "display_name": "Face Masks (medical)",
+      "bin": "garbage",
+      "description": "Medical face masks and other personal protective equipment should be disposed of in the garbage."
+    },
+    "feathers": {
+      "display_name": "Feathers",
+      "bin": "compost",
+      "description": "Feathers can be composted in the Halton region."
+    },
+    "feminine-hygiene-products": {
+      "display_name": "Feminine Hygiene Products",
+      "bin": "garbage",
+      "description": "Feminine hygiene products can be composted in Toronto."
+    },
+    "file-folder-paper": {
+      "display_name": "File Folder (paper)",
+      "bin": "recycling",
+      "description": ""
+    },
+    "fish": {
+      "display_name": "Fish",
+      "bin": "compost",
+      "description": "Bones are accepted as well."
+    },
+    "flammable-liquids": {
+      "display_name": "Flammable Liquids",
+      "bin": "consult-local-guide",
+      "description": "Flammable liquids should be dropped off at a Halton hazardous waste site."
+    },
+    "flour-bag-(paper)": {
+      "display_name": "Flour Bag (paper)",
+      "bin": "recycling",
+      "description": "Empty."
+    },
+    "flyer": {
+      "display_name": "Flyer",
+      "bin": "recycling",
+      "description": "Empty. Separate from plastic bags used to cover items; remove elastic bands."
+    },
+    "flyer-bag-plastic": {
+      "display_name": "Flyer Bag (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "food-can-metal": {
+      "display_name": "Food Can (metal)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Do not include alcoholic beverage containers."
+    },
+    "food-tray-(plastic)": {
+      "display_name": "Food Tray (plastic)",
+      "bin": "recycling",
+      "description": "Plastic food trays (salad, bakery items, etc.) should be empty from food residue."
+    },
+    "fruit-cores": {
+      "display_name": "Fruit Cores",
+      "bin": "compost",
+      "description": "Cores (apple or otherwise) may be frozen, dried, prepared, cooked, or spoiled"
+    },
+    "fruit-peels": {
+      "display_name": "Fruit Peels",
+      "bin": "compost",
+      "description": "Peels (banana, orange, etc.) may be frozen, dried, prepared, cooked, or spoiled"
+    },
+    "fruit-pits": {
+      "display_name": "Fruit Pits",
+      "bin": "compost",
+      "description": "Fruit Pits (peaches, cherries, etc.) may be frozen, dried, prepared, cooked, or spoiled"
+    },
+    "glass-bottle": {
+      "display_name": "Glass Bottle",
+      "bin": "recycling",
+      "description": "Empty bottles before recycling. Alcoholic beverage containers are not accepted."
+    },
+    "glass-bottle-alcoholic": {
+      "display_name": "Glass Bottle (alcoholic)",
+      "bin": "garbage",
+      "description": "Alcoholic beverage containers are not recyclable."
+    },
+    "glass-jar": {
+      "display_name": "Glass Jar",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Lids off. Do not include alcoholic beverage containers."
+    },
+    "glue": {
+      "display_name": "Glue",
+      "bin": "consult-local-guide",
+      "description": "Glue should be dropped off at a Halton hazardous waste site."
+    },
+    "grains": {
+      "display_name": "Grains",
+      "bin": "compost",
+      "description": "Both cooked and raw grains are accepted."
+    },
+    "greeting-card": {
+      "display_name": "Greeting Card",
+      "bin": "recycling",
+      "description": "Empty."
+    },
+    "gum": {
+      "display_name": "Gum",
+      "bin": "garbage",
+      "description": "Gum cannot be composted and should be disposed of in the garbage."
+    },
+    "hair": {
+      "display_name": "Hair (human or pet)",
+      "bin": "compost",
+      "description": "Hair (human or pet) can be composted in Halton."
+    },
+    "hand-cream-tube": {
+      "display_name": "Hand Cream Tube",
+      "bin": "recycling",
+      "description": "Empty and free from residue. Keep lids on."
+    },
+    "hand-sanitizer-bottle": {
+      "display_name": "Hand Sanitizer Bottle",
+      "bin": "recycling",
+      "description": "Empty and free from food and residue. Keep lids on."
+    },
+    "hot-beverage-cup": {
+      "display_name": "Hot Beverage Cup",
+      "bin": "recycling",
+      "description": "Cups like coffee cups have a paper coating that makes them traditionally difficult to recycle, but they are accepted here."
+    },
+    "house-plants": {
+      "display_name": "House Plants",
+      "bin": "compost",
+      "description": "Shake off dirt before composting"
+    },
+    "household-cleaner-jug": {
+      "display_name": "Household Cleaner Jug",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "ice-cream-carton": {
+      "display_name": "Ice Cream Carton",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Remove lids."
+    },
+    "ink-toner-cartridges": {
+      "display_name": "Ink/Toner Cartridges",
+      "bin": "consult-local-guide",
+      "description": "Printer cartridges are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "juice-carton": {
+      "display_name": "Juice Carton",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "keyboards-computer": {
+      "display_name": "Keyboards (computer)",
+      "bin": "consult-local-guide",
+      "description": "Keyboards are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "latex-gloves": {
+      "display_name": "Latex Gloves",
+      "bin": "garbage",
+      "description": "Latex gloves and other personal protective equipment should be disposed of in the garbage."
+    },
+    "laundry-detergent-jug": {
+      "display_name": "Laundry Detergent Jug",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "lightbulbs-flourescent": {
+      "display_name": "Lightbulbs (flourescent)",
+      "bin": "consult-local-guide",
+      "description": "Fluorescent (CFL) bulbs should be dropped off at a Halton hazardous waste site."
+    },
+    "lightbulbs-led-incandescent": {
+      "display_name": "Lightbulbs (LED & Incandescent)",
+      "bin": "garbage",
+      "description": "Non-fluorescent light bulbs can go in the garbage"
+    },
+    "loose-paper": {
+      "display_name": "Loose Paper",
+      "bin": "recycling",
+      "description": "Paper can be white or coloured."
+    },
+    "magazine": {
+      "display_name": "Magazine",
+      "bin": "recycling",
+      "description": "Empty."
+    },
+    "make-up-pads": {
+      "display_name": "Make-Up Pads",
+      "bin": "garbage",
+      "description": "Make-up pads should be disposed of in the garbage."
+    },
+    "meat": {
+      "display_name": "Meat",
+      "bin": "compost",
+      "description": "Bones are accepted as well."
+    },
+    "medication": {
+      "display_name": "Medication",
+      "bin": "consult-local-guide",
+      "description": "Medications can be returned through the Medications & Sharps Return program, or at a Halton Hazardous Waste Site."
+    },
+    "medication-bottle-(plastic)": {
+      "display_name": "Medication Bottle (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food and residue. Keep lids on."
+    },
+    "milk-carton": {
+      "display_name": "Milk Carton",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "monitors": {
+      "display_name": "Monitors",
+      "bin": "consult-local-guide",
+      "description": "Monitors are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "mop-sheets": {
+      "display_name": "Mop Sheets",
+      "bin": "garbage",
+      "description": "Mop sheets should be disposed of in the garbage."
+    },
+    "motor-oil": {
+      "display_name": "Motor Oil",
+      "bin": "consult-local-guide",
+      "description": "Motor oil should be dropped off at a Halton hazardous waste site."
+    },
+    "mouse-computer": {
+      "display_name": "Mouse (computer)",
+      "bin": "consult-local-guide",
+      "description": "Computer mice are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "mouthwash-bottle-(plastic)": {
+      "display_name": "Mouthwash Bottle (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "muffin-cups-paper": {
+      "display_name": "Muffin Cups (paper)",
+      "bin": "compost",
+      "description": "Paper muffin cups can be composted. If it has a chemical coating/lining, it should be disposed of in the garbage."
+    },
+    "nail-clippings": {
+      "display_name": "Nail Clippings",
+      "bin": "compost",
+      "description": "Nail clippings can be composted in Halton region."
+    },
+    "napkins-paper": {
+      "display_name": "Napkins (paper)",
+      "bin": "compost",
+      "description": "Chemical-soiled napkins should go in the garbage"
+    },
+    "newspaper": {
+      "display_name": "Newspaper",
+      "bin": "recycling",
+      "description": "Empty. Separate from plastic bags used to cover items; remove elastic bands."
+    },
+    "newspaper-bag-plastic": {
+      "display_name": "Newspaper Bag (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "notepad": {
+      "display_name": "Notepad",
+      "bin": "recycling",
+      "description": ""
+    },
+    "nuts": {
+      "display_name": "Nuts",
+      "bin": "compost",
+      "description": "Both nuts and nutshells are accepted."
+    },
+    "nutshells": {
+      "display_name": "Nutshells",
+      "bin": "compost",
+      "description": "Both nuts and nutshells are accepted."
+    },
+    "overwrap-beverage-containers": {
+      "display_name": "Overwrap (beverage containers)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "overwrap-paper-towel-and-toilet-paper": {
+      "display_name": "Overwrap (paper towel & toilet paper)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "paint": {
+      "display_name": "Paint",
+      "bin": "consult-local-guide",
+      "description": "Paints should be dropped off at a Halton hazardous waste site."
+    },
+    "paper-bag-greasy": {
+      "display_name": "Paper Bag (greasy)",
+      "bin": "garbage",
+      "description": "Food-soiled paper bags should be disposed of in the garbage."
+    },
+    "paper-coffee-filters": {
+      "display_name": "Paper Coffee Filters",
+      "bin": "compost",
+      "description": "Paper coffee filters are compostable."
+    },
+    "paper-plate": {
+      "display_name": "Paper Plate",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "paper-plates-greasy": {
+      "display_name": "Paper Plates (greasy)",
+      "bin": "garbage",
+      "description": "Food-soiled paper plates should be disposed of in the garbage in Halton"
+    },
+    "paper-produce-bag": {
+      "display_name": "Paper Produce Bag",
+      "bin": "recycling",
+      "description": "Empty. Remove rope handle from bags."
+    },
+    "paper-towel-tube": {
+      "display_name": "Paper Towel Tube",
+      "bin": "recycling",
+      "description": "Flatten. Empty."
+    },
+    "paper-towels": {
+      "display_name": "Paper Towels",
+      "bin": "compost",
+      "description": "Chemical-soiled paper towels should go in the garbage"
+    },
+    "pasta": {
+      "display_name": "Pasta",
+      "bin": "compost",
+      "description": "Both cooked and raw pasta is accepted."
+    },
+    "personal-protective-equipment": {
+      "display_name": "Personal Protective Equipment",
+      "bin": "garbage",
+      "description": "Health-related PPE should be disposed of in the garbage."
+    },
+    "pesticides": {
+      "display_name": "Pesticides",
+      "bin": "consult-local-guide",
+      "description": "Pesticides should be dropped off at a Halton hazardous waste site."
+    },
+    "pet-cage-bedding": {
+      "display_name": "Pet Cage Bedding",
+      "bin": "garbage",
+      "description": "Pet cage bedding (for rabbits or the like) should go in the garbage in Halton."
+    },
+    "pet-food-bag": {
+      "display_name": "Pet Food Bag",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "pet-waste": {
+      "display_name": "Pet Waste",
+      "bin": "garbage",
+      "description": "Pet waste belongs in the garbage in Halton."
+    },
+    "phones": {
+      "display_name": "Phones",
+      "bin": "consult-local-guide",
+      "description": "Phones are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "pie-plate-aluminum": {
+      "display_name": "Pie Plate (aluminum)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "pizza-box-greasy": {
+      "display_name": "Pizza Box (greasy)",
+      "bin": "recycling",
+      "description": "Greasy Pizza Boxes should be recycled in Halton."
+    },
+    "pizza-box-non-greasy": {
+      "display_name": "Pizza Box (non-greasy)",
+      "bin": "recycling",
+      "description": "Pizza boxes should be flattened and no bigger than 60cm x 60cm. Greasy ones should be recycled as well here."
+    },
+    "plant-pot-(plastic)": {
+      "display_name": "Plant Pot (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food and residue."
+    },
+    "plastic-beverage-bottle-alcoholic": {
+      "display_name": "Plastic Beverage Bottle (alcoholic)",
+      "bin": "garbage",
+      "description": "Alcoholic beverage containers must be disposed of in the garbage."
+    },
+    "plastic-beverage-bottle": {
+      "display_name": "Plastic Beverage Bottle (non-alcoholic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "plastic-beverage-cup": {
+      "display_name": "Plastic Beverage Cup",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on."
+    },
+    "plastic-beverage-cup-non-alcoholic": {
+      "display_name": "Plastic Beverage Cup (non-alcoholic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "plastic-gift-bag": {
+      "display_name": "Plastic Gift Bag",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "plastic-jar": {
+      "display_name": "Plastic Jar",
+      "bin": "recycling",
+      "description": "Plastic jars (like those that would hold peanut butter) should be recycled with the lids on."
+    },
+    "popsicle-sticks": {
+      "display_name": "Popsicle Sticks",
+      "bin": "compost",
+      "description": "Popsicle sticks should go in the compost."
+    },
+    "poultry": {
+      "display_name": "Poultry",
+      "bin": "compost",
+      "description": "Bones are accepted as well."
+    },
+    "prescription-bag-(paper)": {
+      "display_name": "Prescription Bag (paper)",
+      "bin": "recycling",
+      "description": "Empty."
+    },
+    "printers": {
+      "display_name": "Printers",
+      "bin": "consult-local-guide",
+      "description": "Printers are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "rice": {
+      "display_name": "Rice",
+      "bin": "compost",
+      "description": "Both cooked and raw rice is accepted."
+    },
+    "salad-dressing-bottle-(plastic)": {
+      "display_name": "Salad Dressing Bottle (plastic)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "sauce-carton": {
+      "display_name": "Sauce Carton",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "shampoo-bottle": {
+      "display_name": "Shampoo Bottle",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "shellfish": {
+      "display_name": "Shellfish",
+      "bin": "compost",
+      "description": "Bones are accepted as well."
+    },
+    "shoe-box": {
+      "display_name": "Shoe Box",
+      "bin": "recycling",
+      "description": "Should be flattened and no bigger than 60cm x 60cm."
+    },
+    "shredded-paper": {
+      "display_name": "Shredded Paper",
+      "bin": "recycling",
+      "description": "Place shredded paper in a tied clear plastic bag."
+    },
+    "snack-wrapper": {
+      "display_name": "Snack Wrapper",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "solid-styrofoam-packaging": {
+      "display_name": "Solid Styrofoam Packaging",
+      "bin": "recycling",
+      "description": "Small styrofoam packing pellets may not be recycled."
+    },
+    "soup-carton": {
+      "display_name": "Soup Carton",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "spiral-can": {
+      "display_name": "Spiral Can",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Remove lids."
+    },
+    "styrofoam-beverage-cup": {
+      "display_name": "Styrofoam Beverage Cup",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "styrofoam-bowl": {
+      "display_name": "Styrofoam Bowl",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "styrofoam-food-container": {
+      "display_name": "Styrofoam Food Container",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "styrofoam-meat-tray": {
+      "display_name": "Styrofoam Meat Tray",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Remove film wrap and absorbent pads from meat trays."
+    },
+    "styrofoam-packing-pellets": {
+      "display_name": "Styrofoam Packing Pellets",
+      "bin": "recycling",
+      "description": "Packing pellets and peanuts can be recycled."
+    },
+    "styrofoam-plate": {
+      "display_name": "Styrofoam Plate",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "sugar-carton": {
+      "display_name": "Sugar Carton",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on. Do not include alcoholic beverage containers."
+    },
+    "tea-bags": {
+      "display_name": "Tea Bags",
+      "bin": "compost",
+      "description": "Tea bags are compostable."
+    },
+    "tea-tin-metal": {
+      "display_name": "Tea Tin (metal)",
+      "bin": "recycling",
+      "description": "Empty and free from food residue."
+    },
+    "tissue-box": {
+      "display_name": "Tissue Box",
+      "bin": "recycling",
+      "description": "Should be emptied and flattened."
+    },
+    "tissues": {
+      "display_name": "Tissues",
+      "bin": "compost",
+      "description": "Chemical-soiled tissues should go in the garbage"
+    },
+    "toilet-paper-tube": {
+      "display_name": "Toilet Paper Tube",
+      "bin": "recycling",
+      "description": "Flatten. Empty."
+    },
+    "toothpaste-tube": {
+      "display_name": "Toothpaste Tube",
+      "bin": "recycling",
+      "description": "Empty and free from residue. Keep lids on."
+    },
+    "toothpicks": {
+      "display_name": "Toothpicks",
+      "bin": "compost",
+      "description": "Toothpicks can be composted in Halton region."
+    },
+    "tvs": {
+      "display_name": "TVs",
+      "bin": "consult-local-guide",
+      "description": "TVs are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
+    },
+    "vegetable-peels": {
+      "display_name": "Vegetable Peels",
+      "bin": "compost",
+      "description": "Peels (carrots, potatoes, etc.) may be frozen, dried, prepared, cooked, or spoiled"
+    },
+    "vegetable-scraps": {
+      "display_name": "Vegetable Scraps",
+      "bin": "compost",
+      "description": "Vegetable scraps may be frozen, dried, prepared, cooked, or spoiled"
+    },
+    "vegetables": {
+      "display_name": "Vegetables",
+      "bin": "compost",
+      "description": "Vegetables may be frozen, dried, prepared, cooked, or spoiled."
+    },
+    "wax": {
+      "display_name": "Wax",
+      "bin": "garbage",
+      "description": "Wax cannot be composted and should be disposed of in the garbage."
+    },
+    "whole-fruits": {
+      "display_name": "Whole Fruits",
+      "bin": "compost",
+      "description": "Fruits may be frozen, dried, prepared, cooked, or spoiled."
+    },
+    "wine-corks": {
+      "display_name": "Wine Corks",
+      "bin": "garbage",
+      "description": "Wine corks are collected at some Halton wineries or should be disposed of in the garbage."
+    },
+    "yogurt-container": {
+      "display_name": "Yogurt Container",
+      "bin": "recycling",
+      "description": "Empty and free from food residue. Keep lids on."
     }
   }
 }

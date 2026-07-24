@@ -64,7 +64,7 @@
     "solid-styrofoam-packaging": {
       "display_name": "Solid Styrofoam Packaging",
       "bin": "recycling",
-      "description": "Small styrofoam packing pellets may not be recycled."
+      "description": "Small styrofoam packing pellets or peanuts can also be recycled."
     },
     "styrofoam-bowl": {
       "display_name": "Styrofoam Bowl",
@@ -487,7 +487,7 @@
       "description": "Feathers should be disposed of in the garbage."
     },
     "hair": {
-      "display_name": "Hair",
+      "display_name": "Hair (human or pet)",
       "bin": "garbage",
       "description": "Hair (human or pet) should be disposed of in the garbage."
     },
@@ -553,8 +553,8 @@
     },
     "styrofoam-packing-pellets": {
       "display_name": "Styrofoam Packing Pellets",
-      "bin": "garbage",
-      "description": "Packing pellets cannot be recycled due to their small size and messiness."
+      "bin": "recycling",
+      "description": "Packing pellets can be recycled in Ontario."
     },
     "glass-bottle-alcoholic": {
       "display_name": "Glass Bottle (alcoholic)",
