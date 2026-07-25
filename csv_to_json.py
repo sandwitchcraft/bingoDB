@@ -17,9 +17,12 @@ is expected to contain, once expanded:
     <export>/<District>/<items>_all.csv    <- an alternate column order (ignored)
 
 Metadata is read from the .md table (district_name, provider_name, site_url,
-location_path); last_updated and version in that table are ignored. The output
-is written under data/<location_path>/<leaf>.json, with last_updated set to
-today and version starting at 1.0.0 (patch-bumped from the existing file, if any).
+location_path, and the optional provider_type/provider_id); last_updated and
+version in that table are ignored. A municipal file (the default) is written under
+data/<location_path>/<leaf>.json; a commercial provider (provider_type: commercial)
+is written under data/<location_path>/providers/<provider_id>/<provider_id>.json so
+it can't collide with a geographic child folder. last_updated is set to today and
+version starts at 1.0.0 (patch-bumped from the existing file, if any).
 
 Item CSV columns (header row is discarded):
     ItemID, Display Name, Bin, Description
@@ -36,9 +39,18 @@ from datetime import date
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# The four metadata fields we take from the .md; last_updated/version are
-# deliberately not among them (they are derived, not copied).
-MD_FIELDS = ("district_name", "provider_name", "site_url", "location_path")
+# The metadata fields we take from the .md; last_updated/version are deliberately
+# not among them (they are derived, not copied). The first four are required; the
+# provider_* pair is optional and defaults to a municipal provider (see
+# parse_metadata), so the existing municipal exports need no new .md rows.
+MD_REQUIRED = ("district_name", "provider_name", "site_url", "location_path")
+MD_OPTIONAL = ("provider_type", "provider_id")
+MD_FIELDS = MD_REQUIRED + MD_OPTIONAL
+
+
+def slugify(value):
+    """Lowercase, non-alphanumeric-runs to single hyphens, trimmed."""
+    return re.sub(r"[^a-z0-9]+", "-", value.strip().lower()).strip("-")
 
 
 def resolve_path(raw):
@@ -160,7 +172,7 @@ def parse_metadata(md_path):
             if key in MD_FIELDS:
                 found[key] = _clean_cell(cells[2])
 
-    missing = [field for field in MD_FIELDS if not found.get(field)]
+    missing = [field for field in MD_REQUIRED if not found.get(field)]
     if missing:
         raise ValueError(f"metadata is missing field(s): {', '.join(missing)}")
 
@@ -168,6 +180,21 @@ def parse_metadata(md_path):
     if not location_path:
         raise ValueError("location_path is empty")
     found["location_path"] = location_path
+
+    # Provider dimension. Absent ⇒ municipal, which is what keeps the 5 existing
+    # residential exports unchanged. A municipal file deliberately keeps provider_id
+    # empty so the app's backend-reporting key stays a bare path; only a commercial
+    # provider gets a slug (falling back to a slug of provider_name if the .md omits it).
+    provider_type = (found.get("provider_type") or "municipal").strip().lower()
+    if provider_type not in ("municipal", "commercial"):
+        provider_type = "municipal"
+    provider_id = slugify(found.get("provider_id") or "")
+    if provider_type == "commercial" and not provider_id:
+        provider_id = slugify(found["provider_name"])
+    if provider_type == "municipal":
+        provider_id = ""
+    found["provider_type"] = provider_type
+    found["provider_id"] = provider_id
     return found
 
 
@@ -196,8 +223,18 @@ def convert(rows):
     return items
 
 
-def default_output_path(location_path):
-    """data/<location_path...>/<leaf>.json, anchored at the repo (script) dir."""
+def default_output_path(location_path, provider_type="municipal", provider_id=""):
+    """Anchored at the repo (script) dir.
+
+    Municipal: data/<location_path...>/<leaf>.json.
+    Commercial: data/<location_path...>/providers/<provider_id>/<provider_id>.json,
+    so a provider scoped to a region never collides with that region's own file or
+    with a geographic child folder.
+    """
+    if provider_type == "commercial" and provider_id:
+        return os.path.join(
+            SCRIPT_DIR, "data", *location_path, "providers", provider_id, f"{provider_id}.json"
+        )
     leaf = location_path[-1]
     return os.path.join(SCRIPT_DIR, "data", *location_path, f"{leaf}.json")
 
@@ -246,11 +283,15 @@ def main(argv):
             next(reader, None)  # discard header row
             items = convert(reader)
 
-    out_path = confirm_output_path(default_output_path(meta["location_path"]))
+    out_path = confirm_output_path(
+        default_output_path(meta["location_path"], meta["provider_type"], meta["provider_id"])
+    )
 
     document = {
         "district_name": meta["district_name"],
         "provider_name": meta["provider_name"],
+        "provider_id": meta["provider_id"],
+        "provider_type": meta["provider_type"],
         "site_url": meta["site_url"],
         "last_updated": date.today().isoformat(),
         "version": next_version(out_path),
