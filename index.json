@@ -4,7 +4,7 @@
   "regions": [
     {
       "id": "canada/ontario/durham",
-      "display_name": "Durham Residential",
+      "display_name": "Durham",
       "level": "region",
       "path": ["canada", "ontario", "durham"],
       "parents": ["Canada", "Ontario"],
@@ -14,7 +14,7 @@
     },
     {
       "id": "canada/ontario/halton",
-      "display_name": "Halton Residential",
+      "display_name": "Halton",
       "level": "region",
       "path": ["canada", "ontario", "halton"],
       "parents": ["Canada", "Ontario"],
@@ -24,7 +24,7 @@
     },
     {
       "id": "canada/ontario/ottawa",
-      "display_name": "Ottawa Residential",
+      "display_name": "Ottawa",
       "level": "municipality",
       "path": ["canada", "ontario", "ottawa"],
       "parents": ["Canada", "Ontario"],
@@ -34,7 +34,7 @@
     },
     {
       "id": "canada/ontario/peel",
-      "display_name": "Peel Residential",
+      "display_name": "Peel",
       "level": "region",
       "path": ["canada", "ontario", "peel"],
       "parents": ["Canada", "Ontario"],
@@ -44,7 +44,7 @@
     },
     {
       "id": "canada/ontario/toronto",
-      "display_name": "Toronto Residential",
+      "display_name": "Toronto",
       "level": "municipality",
       "path": ["canada", "ontario", "toronto"],
       "parents": ["Canada", "Ontario"],
