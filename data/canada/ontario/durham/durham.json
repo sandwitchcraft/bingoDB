@@ -2,9 +2,11 @@
   "district_name": "Durham",
   "provider_name": "Regional Municipality of Durham Waste Management",
   "site_url": "https://www.durham.ca/living-here/garbage-green-bin-and-other-collection/",
-  "last_updated": "2026-07-22",
-  "version": "1.0.0",
+  "last_updated": "2026-09-05",
+  "version": "1.0.1",
   "location_path": ["canada", "ontario", "durham"],
+  "notices": [],
+  "plastics": {},
   "items": {
     "plastic-bottle": {
       "display_name": "Plastic Bottle",
@@ -12,7 +14,6 @@
       "description": "Rinse and place loose in the recycling bin. Do a separate search for bottle caps to see if they are accepted in your area."
     },
     "glass-bottle": {
-      "display_name": "Glass Bottle",
       "bin": "recycling",
       "description": "Clean glass bottles should go in recycling. Do a separate search for bottle caps to see if they are accepted in your area."
     },
@@ -32,7 +33,6 @@
       "description": "Takeout containers made of styrofoam should be placed in the garbage."
     },
     "cardboard-box": {
-      "display_name": "Cardboard Box",
       "bin": "recycling",
       "description": "Flatten and place clean cardboard boxes in recycling. Remove plastic packaging first."
     },

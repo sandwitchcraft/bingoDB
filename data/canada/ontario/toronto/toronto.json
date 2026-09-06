@@ -2,32 +2,81 @@
   "district_name": "Toronto",
   "provider_name": "Municipality of Toronto Waste Management",
   "site_url": "https://www.toronto.ca/services-payments/recycling-organics-garbage/",
-  "last_updated": "2026-07-23",
-  "version": "1.0.0",
+  "last_updated": "2026-09-05",
+  "version": "1.0.1",
   "location_path": ["canada", "ontario", "toronto"],
+  "notices": [
+    {
+      "id": "toronto-2026-09-labour-day",
+      "title": "Labour Day collection delay",
+      "body": "No collection on Monday, September 7. Pickups that week move one day later — Friday routes are collected Saturday.",
+      "date": "2026-09-01",
+      "kind": "alert",
+      "link": "https://www.toronto.ca/services-payments/recycling-organics-garbage/"
+    },
+    {
+      "id": "toronto-2026-08-black-plastic",
+      "title": "Black plastic still goes in the garbage",
+      "body": "Optical sorters at the recycling facility can't see black plastic, so black takeout containers and trays are garbage even when they carry a resin code.",
+      "date": "2026-08-14",
+      "kind": "info"
+    },
+    {
+      "id": "toronto-2026-07-rules",
+      "title": "Sorting rules updated",
+      "body": "This region's item list was refreshed to match the City's current Waste Wizard entries.",
+      "date": "2026-07-23",
+      "kind": "info"
+    }
+  ],
+  "plastics": {
+    "1": {
+      "bin": "recycling",
+      "note": "Bottles, jars and clamshells. Rinse, lids on."
+    },
+    "2": {
+      "bin": "recycling",
+      "note": "Jugs and bottles. Rinse, lids on."
+    },
+    "3": {
+      "bin": "garbage",
+      "note": "Not accepted in the Blue Bin."
+    },
+    "4": {
+      "bin": "recycling",
+      "note": "Rigid only. Bags and film go in a bag of bags."
+    },
+    "5": {
+      "bin": "recycling",
+      "note": "Tubs, lids and rigid containers. No black plastic."
+    },
+    "6": {
+      "bin": "recycling",
+      "note": "Foam accepted. Rinse; no foam packing peanuts."
+    },
+    "7": {
+      "bin": "consult-local-guide",
+      "note": "Depends on the item — check the Waste Wizard."
+    }
+  },
   "items": {
     "aerosol-spray-can": {
-      "display_name": "Aerosol Spray Can",
       "bin": "recycling",
       "description": "Ensure spray cans are empty, and recycle with the lid on."
     },
     "glass-bottle": {
-      "display_name": "Glass Bottle",
       "bin": "recycling",
       "description": "Empty bottles before recycling. Alcoholic beverage containers are not accepted."
     },
     "glass-jar": {
-      "display_name": "Glass Jar",
       "bin": "recycling",
       "description": "Empty and free from food residue. Lids off. Do NOT recycle alcoholic beverage containers."
     },
     "aluminum-food-tray": {
-      "display_name": "Aluminum Food Tray",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "pie-plate-aluminum": {
-      "display_name": "Pie Plate (aluminum)",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
@@ -37,12 +86,10 @@
       "description": "Empty and free from food residue."
     },
     "aluminum-beverage-can": {
-      "display_name": "Aluminum Beverage Can",
       "bin": "recycling",
       "description": "Empty and free from food residue. Do NOT recycle alcoholic beverage containers."
     },
     "aluminum-foil": {
-      "display_name": "Aluminum Foil",
       "bin": "recycling",
       "description": "Empty and free from food residue. Ball up aluminum foil."
     },
@@ -57,62 +104,50 @@
       "description": "Empty and free from food residue."
     },
     "food-can-metal": {
-      "display_name": "Food Can (metal)",
       "bin": "recycling",
       "description": "Empty and free from food residue. Do NOT recycle alcoholic beverage containers."
     },
     "solid-styrofoam-packaging": {
-      "display_name": "Solid Styrofoam Packaging",
       "bin": "recycling",
       "description": "Small styrofoam packing pellets or peanuts can also be recycled."
     },
     "styrofoam-bowl": {
-      "display_name": "Styrofoam Bowl",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "styrofoam-plate": {
-      "display_name": "Styrofoam Plate",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "styrofoam-beverage-cup": {
-      "display_name": "Styrofoam Beverage Cup",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "styrofoam-food-container": {
-      "display_name": "Styrofoam Food Container",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "styrofoam-meat-tray": {
-      "display_name": "Styrofoam Meat Tray",
       "bin": "recycling",
       "description": "Empty and free from food residue. Remove film wrap and absorbent pads from meat trays."
     },
     "plastic-gift-bag": {
-      "display_name": "Plastic Gift Bag",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "cereal-bag-plastic": {
-      "display_name": "Cereal Bag (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "snack-wrapper": {
-      "display_name": "Snack Wrapper",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "bubble-wrap-plastic": {
-      "display_name": "Bubble Wrap (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "chip-bag": {
-      "display_name": "Chip Bag",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
@@ -127,12 +162,10 @@
       "description": "Empty and free from food residue."
     },
     "overwrap-beverage-containers": {
-      "display_name": "Overwrap (beverage containers)",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "newspaper-bag-plastic": {
-      "display_name": "Newspaper Bag (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
@@ -152,22 +185,18 @@
       "description": "Empty and free from food residue."
     },
     "dry-cleaning-bag-plastic": {
-      "display_name": "Dry Cleaning Bag (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "plant-pot-plastic": {
-      "display_name": "Plant Pot (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food and residue."
     },
     "medication-bottle-plastic": {
-      "display_name": "Medication Bottle (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food and residue. Keep lids on."
     },
     "hand-sanitizer-bottle": {
-      "display_name": "Hand Sanitizer Bottle",
       "bin": "recycling",
       "description": "Empty and free from food and residue. Keep lids on."
     },
@@ -177,52 +206,42 @@
       "description": "Empty and free from residue. Keep lids on."
     },
     "deodorant-tube": {
-      "display_name": "Deodorant Tube",
       "bin": "recycling",
       "description": "Empty and free from residue. Keep lids on."
     },
     "toothpaste-tube": {
-      "display_name": "Toothpaste Tube",
       "bin": "recycling",
       "description": "Empty and free from residue. Keep lids on."
     },
     "egg-container-plastic": {
-      "display_name": "Egg Container (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on."
     },
     "plastic-jar": {
-      "display_name": "Plastic Jar",
       "bin": "recycling",
       "description": "Plastic jars (like those that would hold peanut butter) should be recycled with the lids on."
     },
     "yogurt-container": {
-      "display_name": "Yogurt Container",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on."
     },
     "plastic-beverage-cup": {
-      "display_name": "Plastic Beverage Cup",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "food-tray-plastic": {
-      "display_name": "Food Tray (plastic)",
       "bin": "recycling",
       "description": "Plastic food trays (salad, bakery items, etc.) should be empty from food residue."
     },
     "plastic-beverage-bottle": {
-      "display_name": "Plastic Beverage Bottle",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "mouthwash-bottle-plastic": {
-      "display_name": "Mouthwash Bottle (plastic)",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "dish-soap-bottle": {
-      "display_name": "Dish Soap Bottle",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
@@ -237,37 +256,30 @@
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "shampoo-bottle": {
-      "display_name": "Shampoo Bottle",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "household-cleaner-jug": {
-      "display_name": "Household Cleaner Jug",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "laundry-detergent-jug": {
-      "display_name": "Laundry Detergent Jug",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "shredded-paper": {
-      "display_name": "Shredded Paper",
       "bin": "recycling",
       "description": "Place shredded paper in a tied clear plastic bag."
     },
     "envelope": {
-      "display_name": "Envelope",
       "bin": "recycling",
       "description": "Empty."
     },
     "greeting-card": {
-      "display_name": "Greeting Card",
       "bin": "recycling",
       "description": "Empty."
     },
     "magazine": {
-      "display_name": "Magazine",
       "bin": "recycling",
       "description": "Empty."
     },
@@ -277,17 +289,14 @@
       "description": "Empty."
     },
     "flyer": {
-      "display_name": "Flyer",
       "bin": "recycling",
       "description": "Empty. Separate from plastic bags used to cover items; remove elastic bands."
     },
     "newspaper": {
-      "display_name": "Newspaper",
       "bin": "recycling",
       "description": "Empty. Separate from plastic bags used to cover items; remove elastic bands."
     },
     "file-folder-paper": {
-      "display_name": "File Folder (paper)",
       "bin": "recycling",
       "description": ""
     },
@@ -297,27 +306,22 @@
       "description": "Empty. Remove rope handle from bags."
     },
     "flour-bag-paper": {
-      "display_name": "Flour Bag (paper)",
       "bin": "recycling",
       "description": "Empty."
     },
     "loose-paper": {
-      "display_name": "Loose Paper",
       "bin": "recycling",
       "description": "Paper can be white or coloured."
     },
     "notepad": {
-      "display_name": "Notepad",
       "bin": "recycling",
       "description": ""
     },
     "prescription-bag-paper": {
-      "display_name": "Prescription Bag (paper)",
       "bin": "recycling",
       "description": "Empty."
     },
     "sauce-carton": {
-      "display_name": "Sauce Carton",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
@@ -347,17 +351,14 @@
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "beverage-carton": {
-      "display_name": "Beverage Carton",
       "bin": "recycling",
       "description": "Empty and free from food residue. Keep lids on. Do NOT recycle alcoholic beverage containers."
     },
     "hot-beverage-cup": {
-      "display_name": "Hot Beverage Cup",
       "bin": "recycling",
       "description": "Cups like coffee cups have a paper coating that makes them traditionally difficult to recycle, but they are accepted here."
     },
     "ice-cream-carton": {
-      "display_name": "Ice Cream Carton",
       "bin": "recycling",
       "description": "Empty and free from food residue. Remove lids."
     },
@@ -372,47 +373,38 @@
       "description": "Empty and free from food residue. Remove lids."
     },
     "paper-plate": {
-      "display_name": "Paper Plate",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "pet-food-bag": {
-      "display_name": "Pet Food Bag",
       "bin": "recycling",
       "description": "Empty and free from food residue."
     },
     "paper-towel-tube": {
-      "display_name": "Paper Towel Tube",
       "bin": "recycling",
       "description": "Flatten. Empty."
     },
     "toilet-paper-tube": {
-      "display_name": "Toilet Paper Tube",
       "bin": "recycling",
       "description": "Flatten. Empty."
     },
     "egg-carton": {
-      "display_name": "Egg Carton",
       "bin": "recycling",
       "description": "Should be emptied before recycling."
     },
     "tissue-box": {
-      "display_name": "Tissue Box",
       "bin": "recycling",
       "description": "Should be emptied and flattened."
     },
     "cereal-box": {
-      "display_name": "Cereal Box",
       "bin": "recycling",
       "description": "Should be emptied and flattened."
     },
     "shoe-box": {
-      "display_name": "Shoe Box",
       "bin": "recycling",
       "description": "Should be flattened and no bigger than 60cm x 60cm."
     },
     "cardboard-box": {
-      "display_name": "Cardboard Box",
       "bin": "recycling",
       "description": "Should be flattened and no bigger than 60cm x 60cm."
     },
@@ -422,157 +414,126 @@
       "description": "Pizza boxes should be flattened and no bigger than 60cm x 60cm. Greasy ones should be composted."
     },
     "cigarettes": {
-      "display_name": "Cigarettes",
       "bin": "garbage",
       "description": "Cigarettes cannot be composted and should be disposed of in the garbage."
     },
     "cigarette-butts": {
-      "display_name": "Cigarette Butts",
       "bin": "garbage",
       "description": "Cigarette butts cannot be composted and should be disposed of in the garbage."
     },
     "wine-corks": {
-      "display_name": "Wine Corks",
       "bin": "garbage",
       "description": "Wine corks cannot be composted and should be disposed of in the garbage."
     },
     "wax": {
-      "display_name": "Wax",
       "bin": "garbage",
       "description": "Wax cannot be composted and should be disposed of in the garbage."
     },
     "gum": {
-      "display_name": "Gum",
       "bin": "garbage",
       "description": "Gum cannot be composted and should be disposed of in the garbage."
     },
     "personal-protective-equipment": {
-      "display_name": "Personal Protective Equipment",
       "bin": "garbage",
       "description": "Health-related PPE should be disposed of in the garbage."
     },
     "latex-gloves": {
-      "display_name": "Latex Gloves",
       "bin": "garbage",
       "description": "Latex gloves and other personal protective equipment should be disposed of in the garbage."
     },
     "face-masks-medical": {
-      "display_name": "Face Masks (medical)",
       "bin": "garbage",
       "description": "Medical face masks and other personal protective equipment should be disposed of in the garbage."
     },
     "ceramic-dishes": {
-      "display_name": "Ceramic Dishes",
       "bin": "garbage",
       "description": "Ceramic dishes should be disposed of in the garbage. Be mindful of shards that can cut the bag open."
     },
     "dryer-lint": {
-      "display_name": "Dryer Lint",
       "bin": "garbage",
       "description": "Dryer lint should be disposed of in the garbage."
     },
     "nail-clippings": {
-      "display_name": "Nail Clippings",
       "bin": "garbage",
       "description": "Nail clippings should be disposed of in the garbage."
     },
     "feathers": {
-      "display_name": "Feathers",
       "bin": "garbage",
       "description": "Feathers should be disposed of in the garbage."
     },
     "hair": {
-      "display_name": "Hair (human or pet)",
       "bin": "garbage",
       "description": "Hair (human or pet) should be disposed of in the garbage."
     },
     "chopsticks-wooden": {
-      "display_name": "Chopsticks (wooden)",
       "bin": "garbage",
       "description": "Wooden chopsticks should be disposed of in the garbage."
     },
     "toothpicks": {
-      "display_name": "Toothpicks",
       "bin": "garbage",
       "description": "Toothpicks should be disposed of in the garbage."
     },
     "popsicle-sticks": {
-      "display_name": "Popsicle Sticks",
       "bin": "garbage",
       "description": "Popsicle sticks should be disposed of in the garbage."
     },
     "compostable-plastic-cutlery": {
-      "display_name": "Compostable Plastic Cutlery",
       "bin": "garbage",
       "description": "Compostable plastic cutlery (even if they say they ARE compostable) are NOT accepted by Toronto Waste Management and are very difficult to compost."
     },
     "compostable-plastic-containers": {
-      "display_name": "Compostable Plastic Containers",
       "bin": "garbage",
       "description": "Compostable plastic containers (even if they say they ARE compostable) are NOT accepted by Toronto Waste Management and are very difficult to compost."
     },
     "dental-floss": {
-      "display_name": "Dental Floss",
       "bin": "garbage",
       "description": "Dental floss should be disposed of in the garbage."
     },
     "cotton-swabs": {
-      "display_name": "Cotton Swabs",
       "bin": "garbage",
       "description": "Cotton swabs should be disposed of in the garbage."
     },
     "baby-wipes": {
-      "display_name": "Baby Wipes",
       "bin": "garbage",
       "description": "Baby Wipes should be disposed of in the garbage. DO NOT flush them down the toilet."
     },
     "mop-sheets": {
-      "display_name": "Mop Sheets",
       "bin": "garbage",
       "description": "Mop sheets should be disposed of in the garbage."
     },
     "make-up-pads": {
-      "display_name": "Make-Up Pads",
       "bin": "garbage",
       "description": "Make-up pads should be disposed of in the garbage."
     },
     "dryer-sheets": {
-      "display_name": "Dryer Sheets",
       "bin": "garbage",
       "description": "Dryer sheets should be disposed of in the garbage."
     },
     "styrofoam-packing-pellets": {
-      "display_name": "Styrofoam Packing Pellets",
       "bin": "recycling",
       "description": "Packing pellets can be recycled in Ontario."
     },
     "house-plants": {
-      "display_name": "House Plants",
       "bin": "compost",
       "description": "Shake off dirt before composting"
     },
     "pet-cage-bedding": {
-      "display_name": "Pet Cage Bedding",
       "bin": "compost",
       "description": "Pet cage bedding (for rabbits or the like) can be composted in Toronto."
     },
     "pet-waste": {
-      "display_name": "Pet Waste",
       "bin": "compost",
       "description": "Pet waste can be composted."
     },
     "muffin-cups-paper": {
-      "display_name": "Muffin Cups (paper)",
       "bin": "compost",
       "description": "Paper muffin cups can be composted. If it has a chemical coating/lining, it should be disposed of in the garbage."
     },
     "feminine-hygiene-products": {
-      "display_name": "Feminine Hygiene Products",
       "bin": "compost",
       "description": "Feminine hygiene products can be composted in Toronto."
     },
     "diapers": {
-      "display_name": "Diapers",
       "bin": "compost",
       "description": "Diapers can be composted in Toronto."
     },
@@ -592,22 +553,18 @@
       "description": "Clean pizza boxes should be recycled."
     },
     "paper-towels": {
-      "display_name": "Paper Towels",
       "bin": "compost",
       "description": "Chemical-soiled paper towels should go in the garbage"
     },
     "napkins-paper": {
-      "display_name": "Napkins (paper)",
       "bin": "compost",
       "description": "Chemical-soiled napkins should go in the garbage"
     },
     "tissues": {
-      "display_name": "Tissues",
       "bin": "compost",
       "description": "Chemical-soiled tissues should go in the garbage"
     },
     "tea-bags": {
-      "display_name": "Tea Bags",
       "bin": "compost",
       "description": "Tea bags are compostable."
     },
@@ -617,117 +574,94 @@
       "description": "Paper coffee filters are compostable."
     },
     "coffee-grounds": {
-      "display_name": "Coffee Grounds",
       "bin": "compost",
       "description": "Coffee grounds are compostable, and should not be washed down the sink. Be kind to your neighbour."
     },
     "shellfish": {
-      "display_name": "Shellfish",
       "bin": "compost",
       "description": "Bones are accepted as well."
     },
     "fish": {
-      "display_name": "Fish",
       "bin": "compost",
       "description": "Bones are accepted as well."
     },
     "poultry": {
-      "display_name": "Poultry",
       "bin": "compost",
       "description": "Bones are accepted as well."
     },
     "meat": {
-      "display_name": "Meat",
       "bin": "compost",
       "description": "Bones are accepted as well."
     },
     "nutshells": {
-      "display_name": "Nutshells",
       "bin": "compost",
       "description": "Both nuts and nutshells are accepted."
     },
     "cereal": {
-      "display_name": "Cereal",
       "bin": "compost",
       "description": "Cereal is compostable :)"
     },
     "grains": {
-      "display_name": "Grains",
       "bin": "compost",
       "description": "Both cooked and raw grains are accepted."
     },
     "whole-fruits": {
-      "display_name": "Whole Fruits",
       "bin": "compost",
       "description": "Fruits may be frozen, dried, prepared, cooked, or spoiled."
     },
     "vegetables": {
-      "display_name": "Vegetables",
       "bin": "compost",
       "description": "Vegetables may be frozen, dried, prepared, cooked, or spoiled."
     },
     "nuts": {
-      "display_name": "Nuts",
       "bin": "compost",
       "description": "Both nuts and nutshells are accepted."
     },
     "rice": {
-      "display_name": "Rice",
       "bin": "compost",
       "description": "Both cooked and raw rice is accepted."
     },
     "pasta": {
-      "display_name": "Pasta",
       "bin": "compost",
       "description": "Both cooked and raw pasta is accepted."
     },
     "dairy-products": {
-      "display_name": "Dairy Products",
       "bin": "compost",
       "description": "Milks, cheeses, yogurts, and other dairy products can be composted."
     },
     "egg-shells": {
-      "display_name": "Egg Shells",
       "bin": "compost",
       "description": "Eggs (both shells and eggs) can be composted."
     },
     "egg": {
-      "display_name": "Eggs",
       "bin": "compost",
       "description": "Eggs (both shells and eggs) can be composted."
     },
     "vegetable-peels": {
-      "display_name": "Vegetable Peels",
       "bin": "compost",
       "description": "Peels (carrots, potatoes, etc.) may be frozen, dried, prepared, cooked, or spoiled"
     },
     "vegetable-scraps": {
-      "display_name": "Vegetable Scraps",
       "bin": "compost",
       "description": "Vegetable scraps may be frozen, dried, prepared, cooked, or spoiled"
     },
     "fruit-pits": {
-      "display_name": "Fruit Pits",
       "bin": "compost",
       "description": "Fruit Pits (peaches, cherries, etc.) may be frozen, dried, prepared, cooked, or spoiled"
     },
     "fruit-cores": {
-      "display_name": "Fruit Cores",
       "bin": "compost",
       "description": "Cores (apple or otherwise) may be frozen, dried, prepared, cooked, or spoiled"
     },
     "fruit-peels": {
-      "display_name": "Fruit Peels",
       "bin": "compost",
       "description": "Peels (banana, orange, etc.) may be frozen, dried, prepared, cooked, or spoiled"
     },
     "ink-toner-cartridges": {
-      "display_name": "Ink/Toner Cartridges",
       "bin": "consult-local-guide",
       "description": "Printer cartridges are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "printers": {
-      "display_name": "Printers",
       "bin": "consult-local-guide",
       "description": "Printers are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
@@ -737,32 +671,26 @@
       "description": "Phones are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "cables-electronic": {
-      "display_name": "Cables (electronic)",
       "bin": "consult-local-guide",
       "description": "Electronic cables are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "mouse-computer": {
-      "display_name": "Mouse (computer)",
       "bin": "consult-local-guide",
       "description": "Computer mice are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "keyboards-computer": {
-      "display_name": "Keyboards (computer)",
       "bin": "consult-local-guide",
       "description": "Keyboards are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "computers": {
-      "display_name": "Computers",
       "bin": "consult-local-guide",
       "description": "Computers are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "e-readers": {
-      "display_name": "E-Readers",
       "bin": "consult-local-guide",
       "description": "E-readers are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "monitors": {
-      "display_name": "Monitors",
       "bin": "consult-local-guide",
       "description": "Monitors are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
@@ -772,22 +700,18 @@
       "description": "TVs are electronic waste, and should be dropped off at an appropriate location. Visit the link below for more details."
     },
     "glue": {
-      "display_name": "Glue",
       "bin": "consult-local-guide",
       "description": "Glue should be dropped off at a Toronto hazardous waste site."
     },
     "flammable-liquids": {
-      "display_name": "Flammable Liquids",
       "bin": "consult-local-guide",
       "description": "Flammable liquids should be dropped off at a Toronto hazardous waste site."
     },
     "paint": {
-      "display_name": "Paint",
       "bin": "consult-local-guide",
       "description": "Paints should be dropped off at a Toronto hazardous waste site."
     },
     "pesticides": {
-      "display_name": "Pesticides",
       "bin": "consult-local-guide",
       "description": "Pesticides should be dropped off at a Toronto hazardous waste site."
     },
@@ -797,37 +721,30 @@
       "description": "Lightbulbs should be dropped off at a Toronto hazardous waste site."
     },
     "medication": {
-      "display_name": "Medication",
       "bin": "consult-local-guide",
       "description": "Medications should be dropped off at a Toronto hazardous waste site."
     },
     "batteries-car": {
-      "display_name": "Batteries (car)",
       "bin": "consult-local-guide",
       "description": "All batteries (disposable, rechargeable, lithium-ion, cell-phone, etc.) should be dropped off at a Toronto hazardous waste site."
     },
     "batteries-cell-phone": {
-      "display_name": "Batteries (cell-phone)",
       "bin": "consult-local-guide",
       "description": "All batteries (disposable, rechargeable, lithium-ion, cell-phone, etc.) should be dropped off at a Toronto hazardous waste site."
     },
     "batteries-lithium-ion": {
-      "display_name": "Batteries (lithium-ion)",
       "bin": "consult-local-guide",
       "description": "All batteries (disposable, rechargeable, lithium-ion, cell-phone, etc.) should be dropped off at a Toronto hazardous waste site."
     },
     "batteries-rechargeable": {
-      "display_name": "Batteries (rechargeable)",
       "bin": "consult-local-guide",
       "description": "All batteries (disposable, rechargeable, lithium-ion, cell-phone, etc.) should be dropped off at a Toronto hazardous waste site."
     },
     "motor-oil": {
-      "display_name": "Motor Oil",
       "bin": "consult-local-guide",
       "description": "Motor oil should be dropped off at a Toronto hazardous waste site."
     },
     "batteries-disposable": {
-      "display_name": "Batteries (disposable)",
       "bin": "consult-local-guide",
       "description": "All batteries (disposable, rechargeable, lithium-ion, cell-phone, etc.) should be dropped off at a Toronto hazardous waste site."
     }

@@ -1,0 +1,1840 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-05",
+  "materials": [
+    "metal",
+    "glass",
+    "styrofoam",
+    "plastic",
+    "cardboard",
+    "paper",
+    "organic",
+    "other"
+  ],
+  "items": {
+    "aerosol-spray-can": {
+      "display_name": "Aerosol Spray Can",
+      "keywords": [],
+      "material": "metal"
+    },
+    "air-filter": {
+      "display_name": "Air Filter (furnace/HVAC)",
+      "keywords": [
+        "furnace",
+        "HVAC",
+        "filter",
+        "air conditioner"
+      ],
+      "material": "other"
+    },
+    "aluminum-beverage-can": {
+      "display_name": "Aluminum Beverage Can",
+      "keywords": [
+        "tin",
+        "soda",
+        "pop"
+      ],
+      "material": "metal"
+    },
+    "aluminum-foil": {
+      "display_name": "Aluminum Foil",
+      "keywords": [
+        "tin"
+      ],
+      "material": "metal"
+    },
+    "aluminum-food-tray": {
+      "display_name": "Aluminum Food Tray",
+      "keywords": [],
+      "material": "metal"
+    },
+    "antifreeze": {
+      "display_name": "Antifreeze",
+      "keywords": [
+        "coolant",
+        "glycol",
+        "car"
+      ],
+      "material": "other"
+    },
+    "baby-wipes": {
+      "display_name": "Baby Wipes",
+      "keywords": [
+        "wipe"
+      ],
+      "material": "other"
+    },
+    "balloons": {
+      "display_name": "Balloons",
+      "keywords": [
+        "latex",
+        "mylar",
+        "party"
+      ],
+      "material": "plastic"
+    },
+    "bandages": {
+      "display_name": "Bandages",
+      "keywords": [
+        "band-aid",
+        "plaster",
+        "gauze",
+        "dressing"
+      ],
+      "material": "other"
+    },
+    "batteries-car": {
+      "display_name": "Batteries (car)",
+      "keywords": [
+        "battery"
+      ],
+      "material": "other"
+    },
+    "batteries-cell-phone": {
+      "display_name": "Batteries (cell-phone)",
+      "keywords": [
+        "battery"
+      ],
+      "material": "other"
+    },
+    "batteries-disposable": {
+      "display_name": "Batteries (disposable)",
+      "keywords": [
+        "battery",
+        "AA",
+        "9V",
+        "AAA"
+      ],
+      "material": "other"
+    },
+    "batteries-lithium-ion": {
+      "display_name": "Batteries (lithium-ion)",
+      "keywords": [
+        "battery"
+      ],
+      "material": "other"
+    },
+    "batteries-rechargeable": {
+      "display_name": "Batteries (rechargeable)",
+      "keywords": [
+        "battery"
+      ],
+      "material": "other"
+    },
+    "beauty-product-tube": {
+      "display_name": "Beauty Product Tubes",
+      "keywords": [
+        "hand",
+        "cream",
+        "lotion",
+        "face",
+        "body"
+      ],
+      "material": "other"
+    },
+    "beverage-carton": {
+      "display_name": "Beverage Carton",
+      "keywords": [
+        "drink",
+        "juice",
+        "milk"
+      ],
+      "material": "cardboard"
+    },
+    "beverage-cup-lid-plastic": {
+      "display_name": "Beverage Cup Lid (plastic)",
+      "keywords": [
+        "coffee",
+        "dome lid",
+        "sippy"
+      ],
+      "material": "plastic"
+    },
+    "bike-helmet": {
+      "display_name": "Bike Helmet",
+      "keywords": [
+        "helmet",
+        "bicycle",
+        "cycling"
+      ],
+      "material": "other"
+    },
+    "blister-pack": {
+      "display_name": "Blister Pack (medication)",
+      "keywords": [
+        "pill",
+        "tablet",
+        "foil",
+        "pack"
+      ],
+      "material": "plastic"
+    },
+    "bones": {
+      "display_name": "Bones",
+      "keywords": [
+        "beef",
+        "chicken",
+        "pork",
+        "fish bones",
+        "marrow"
+      ],
+      "material": "organic"
+    },
+    "books": {
+      "display_name": "Books",
+      "keywords": [
+        "book",
+        "phone book",
+        "textbook",
+        "paperback",
+        "hardcover"
+      ],
+      "material": "paper"
+    },
+    "bottle-cap-metal": {
+      "display_name": "Bottle Cap (metal)",
+      "keywords": [
+        "crown cap",
+        "beer",
+        "closure"
+      ],
+      "material": "metal"
+    },
+    "bottle-cap-plastic": {
+      "display_name": "Bottle Cap (plastic)",
+      "keywords": [
+        "lid",
+        "screw cap",
+        "closure"
+      ],
+      "material": "plastic"
+    },
+    "bread-bag": {
+      "display_name": "Bread Bag & Tag",
+      "keywords": [
+        "bread",
+        "tag",
+        "clip",
+        "loaf"
+      ],
+      "material": "plastic"
+    },
+    "bread-baked-goods": {
+      "display_name": "Bread & Baked Goods",
+      "keywords": [
+        "loaf",
+        "bun",
+        "cake",
+        "muffin",
+        "pastry",
+        "baguette"
+      ],
+      "material": "organic"
+    },
+    "broken-glass-pyrex": {
+      "display_name": "Broken Glass & Pyrex",
+      "keywords": [
+        "shards",
+        "ovenware",
+        "borosilicate"
+      ],
+      "material": "glass"
+    },
+    "bubble-wrap-plastic": {
+      "display_name": "Bubble Wrap (plastic)",
+      "keywords": [
+        "packing"
+      ],
+      "material": "plastic"
+    },
+    "cables-electronic": {
+      "display_name": "Cables (electronic)",
+      "keywords": [
+        "cords",
+        "computer"
+      ],
+      "material": "other"
+    },
+    "cardboard-box": {
+      "display_name": "Cardboard Box",
+      "keywords": [],
+      "material": "cardboard"
+    },
+    "catalog-junk-mail": {
+      "display_name": "Catalog & Junk Mail",
+      "keywords": [
+        "catalogue",
+        "direct mail",
+        "insert",
+        "advertising"
+      ],
+      "material": "paper"
+    },
+    "cd-dvd-case": {
+      "display_name": "CD/DVD & Case",
+      "keywords": [
+        "disc",
+        "jewel case",
+        "blu-ray"
+      ],
+      "material": "plastic"
+    },
+    "cell-phones": {
+      "display_name": "Cell Phones",
+      "keywords": [
+        "iPhone",
+        "Samsung",
+        "Google",
+        "Pixel"
+      ],
+      "material": "other"
+    },
+    "ceramic-dishes": {
+      "display_name": "Ceramic Dishes",
+      "keywords": [],
+      "material": "other"
+    },
+    "cereal": {
+      "display_name": "Cereal",
+      "keywords": [
+        "breakfast"
+      ],
+      "material": "organic"
+    },
+    "cereal-bag-plastic": {
+      "display_name": "Cereal Bag (plastic)",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "cereal-box": {
+      "display_name": "Cereal Box",
+      "keywords": [],
+      "material": "cardboard"
+    },
+    "child-car-seat": {
+      "display_name": "Child Car Seat",
+      "keywords": [
+        "booster",
+        "infant seat",
+        "carseat"
+      ],
+      "material": "other"
+    },
+    "chip-bag": {
+      "display_name": "Chip Bag",
+      "keywords": [
+        "snack"
+      ],
+      "material": "other"
+    },
+    "chopsticks-wooden": {
+      "display_name": "Chopsticks (wooden)",
+      "keywords": [],
+      "material": "organic"
+    },
+    "cigarette-butts": {
+      "display_name": "Cigarette Butts",
+      "keywords": [],
+      "material": "other"
+    },
+    "cigarettes": {
+      "display_name": "Cigarettes",
+      "keywords": [],
+      "material": "other"
+    },
+    "clamshell-container-plastic": {
+      "display_name": "Clamshell Container (plastic)",
+      "keywords": [
+        "berry",
+        "salad",
+        "bakery",
+        "takeout"
+      ],
+      "material": "plastic"
+    },
+    "cling-film": {
+      "display_name": "Cling Film (plastic wrap)",
+      "keywords": [
+        "saran",
+        "plastic wrap",
+        "cellophane"
+      ],
+      "material": "plastic"
+    },
+    "clothing-textiles": {
+      "display_name": "Clothing & Textiles",
+      "keywords": [
+        "shirt",
+        "socks",
+        "towels",
+        "bedding",
+        "curtains",
+        "fabric",
+        "linens"
+      ],
+      "material": "other"
+    },
+    "coffee-grounds": {
+      "display_name": "Coffee Grounds",
+      "keywords": [],
+      "material": "organic"
+    },
+    "coffee-pods": {
+      "display_name": "Coffee Pods",
+      "keywords": [
+        "k-cup",
+        "keurig",
+        "nespresso",
+        "capsule"
+      ],
+      "material": "other"
+    },
+    "compostable-plastic-containers": {
+      "display_name": "Compostable Plastic Containers",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "compostable-plastic-cutlery": {
+      "display_name": "Compostable Plastic Cutlery",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "computers": {
+      "display_name": "Computers",
+      "keywords": [
+        "laptop",
+        "device",
+        "computer"
+      ],
+      "material": "other"
+    },
+    "condiment-bottle": {
+      "display_name": "Condiment Bottle (plastic)",
+      "keywords": [
+        "ketchup",
+        "mustard",
+        "mayonaise",
+        "relish",
+        "dressing"
+      ],
+      "material": "plastic"
+    },
+    "contact-lenses": {
+      "display_name": "Contact Lenses",
+      "keywords": [
+        "lens",
+        "contacts",
+        "blister"
+      ],
+      "material": "other"
+    },
+    "cooking-oil-grease": {
+      "display_name": "Cooking Oil & Grease",
+      "keywords": [
+        "fat",
+        "frying oil",
+        "lard",
+        "drippings"
+      ],
+      "material": "organic"
+    },
+    "corn-cobs-husks": {
+      "display_name": "Corn Cobs & Husks",
+      "keywords": [
+        "corn",
+        "cob",
+        "husk",
+        "silk"
+      ],
+      "material": "organic"
+    },
+    "cotton-swabs": {
+      "display_name": "Cotton Swabs",
+      "keywords": [
+        "Q-tip",
+        "swab"
+      ],
+      "material": "other"
+    },
+    "crayons": {
+      "display_name": "Crayons",
+      "keywords": [
+        "crayon",
+        "wax",
+        "coloring"
+      ],
+      "material": "other"
+    },
+    "credit-gift-card": {
+      "display_name": "Credit/Gift Card",
+      "keywords": [
+        "debit",
+        "loyalty",
+        "card"
+      ],
+      "material": "plastic"
+    },
+    "cut-flowers": {
+      "display_name": "Cut Flowers",
+      "keywords": [
+        "bouquet",
+        "floral",
+        "petals",
+        "stems"
+      ],
+      "material": "organic"
+    },
+    "dairy-products": {
+      "display_name": "Dairy Products",
+      "keywords": [
+        "milk",
+        "yogurt",
+        "cream",
+        "ice cream",
+        "cheese",
+        "kefir"
+      ],
+      "material": "organic"
+    },
+    "dental-floss": {
+      "display_name": "Dental Floss",
+      "keywords": [],
+      "material": "other"
+    },
+    "deodorant-tube": {
+      "display_name": "Deodorant Tube",
+      "keywords": [],
+      "material": "other"
+    },
+    "diapers": {
+      "display_name": "Diapers",
+      "keywords": [
+        "dirty",
+        "nappy",
+        "nappies",
+        "diaper"
+      ],
+      "material": "other"
+    },
+    "dish-soap-bottle": {
+      "display_name": "Dish Soap Bottle",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "disposable-razor": {
+      "display_name": "Disposable Razor",
+      "keywords": [
+        "razor",
+        "shaving",
+        "blade",
+        "cartridge"
+      ],
+      "material": "plastic"
+    },
+    "dough-roll-package": {
+      "display_name": "Dough Roll Package",
+      "keywords": [
+        "cookie",
+        "biscuit",
+        "bun",
+        "roll",
+        "cinnamon",
+        "pastry"
+      ],
+      "material": "cardboard"
+    },
+    "drinking-glass": {
+      "display_name": "Drinking Glass & Glassware",
+      "keywords": [
+        "cup",
+        "tumbler",
+        "wine glass",
+        "stemware"
+      ],
+      "material": "glass"
+    },
+    "dry-cleaning-bag-plastic": {
+      "display_name": "Dry Cleaning Bag (plastic)",
+      "keywords": [
+        "clothing"
+      ],
+      "material": "plastic"
+    },
+    "dryer-lint": {
+      "display_name": "Dryer Lint",
+      "keywords": [
+        "fuzz"
+      ],
+      "material": "other"
+    },
+    "dryer-sheets": {
+      "display_name": "Dryer Sheets",
+      "keywords": [],
+      "material": "other"
+    },
+    "e-readers": {
+      "display_name": "E-Readers",
+      "keywords": [],
+      "material": "other"
+    },
+    "egg": {
+      "display_name": "Eggs",
+      "keywords": [],
+      "material": "organic"
+    },
+    "egg-carton": {
+      "display_name": "Egg Carton",
+      "keywords": [],
+      "material": "cardboard"
+    },
+    "egg-container-plastic": {
+      "display_name": "Egg Container (plastic)",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "egg-shells": {
+      "display_name": "Egg Shells",
+      "keywords": [],
+      "material": "organic"
+    },
+    "envelope": {
+      "display_name": "Envelope",
+      "keywords": [
+        "mailer",
+        "envelopes"
+      ],
+      "material": "paper"
+    },
+    "eyeglasses": {
+      "display_name": "Eyeglasses",
+      "keywords": [
+        "glasses",
+        "spectacles",
+        "frames",
+        "sunglasses"
+      ],
+      "material": "other"
+    },
+    "face-masks-medical": {
+      "display_name": "Face Masks (medical)",
+      "keywords": [],
+      "material": "other"
+    },
+    "feathers": {
+      "display_name": "Feathers",
+      "keywords": [],
+      "material": "other"
+    },
+    "feminine-hygiene-products": {
+      "display_name": "Feminine Hygiene Products",
+      "keywords": [
+        "period",
+        "tampon",
+        "pad"
+      ],
+      "material": "other"
+    },
+    "file-folder-paper": {
+      "display_name": "File Folder (paper)",
+      "keywords": [],
+      "material": "paper"
+    },
+    "fire-extinguisher": {
+      "display_name": "Fire Extinguisher",
+      "keywords": [
+        "extinguisher",
+        "cylinder"
+      ],
+      "material": "metal"
+    },
+    "fish": {
+      "display_name": "Fish",
+      "keywords": [],
+      "material": "organic"
+    },
+    "flammable-liquids": {
+      "display_name": "Flammable Liquids",
+      "keywords": [
+        "gas",
+        "kerosene"
+      ],
+      "material": "other"
+    },
+    "flour-bag-paper": {
+      "display_name": "Flour Bag (paper)",
+      "keywords": [
+        "sugar"
+      ],
+      "material": "paper"
+    },
+    "flyer": {
+      "display_name": "Flyer",
+      "keywords": [],
+      "material": "paper"
+    },
+    "food-can-metal": {
+      "display_name": "Food Can (metal)",
+      "keywords": [
+        "tin"
+      ],
+      "material": "metal"
+    },
+    "food-tray-plastic": {
+      "display_name": "Food Tray (plastic)",
+      "keywords": [
+        "takeout",
+        "container"
+      ],
+      "material": "plastic"
+    },
+    "frozen-food-box": {
+      "display_name": "Frozen Food Box",
+      "keywords": [
+        "waxed",
+        "paperboard",
+        "freezer",
+        "carton"
+      ],
+      "material": "cardboard"
+    },
+    "fruit-cores": {
+      "display_name": "Fruit Cores",
+      "keywords": [
+        "apple",
+        "peach",
+        "plum"
+      ],
+      "material": "organic"
+    },
+    "fruit-peels": {
+      "display_name": "Fruit Peels",
+      "keywords": [
+        "orange",
+        "banana",
+        "apple",
+        "lemon",
+        "lime"
+      ],
+      "material": "organic"
+    },
+    "fruit-pits": {
+      "display_name": "Fruit Pits",
+      "keywords": [
+        "peach",
+        "plum",
+        "cherry"
+      ],
+      "material": "organic"
+    },
+    "furniture": {
+      "display_name": "Furniture",
+      "keywords": [
+        "chair",
+        "table",
+        "sofa",
+        "couch",
+        "desk",
+        "dresser"
+      ],
+      "material": "other"
+    },
+    "gaming-consoles": {
+      "display_name": "Gaming Consoles",
+      "keywords": [
+        "playstation",
+        "xbox",
+        "nintendo",
+        "switch",
+        "controller"
+      ],
+      "material": "other"
+    },
+    "garbage-bag": {
+      "display_name": "Garbage Bag (bin liner)",
+      "keywords": [
+        "trash",
+        "bin",
+        "liner",
+        "sack"
+      ],
+      "material": "plastic"
+    },
+    "garden-hose-pvc-pipe": {
+      "display_name": "Garden Hose & PVC Pipe",
+      "keywords": [
+        "hose",
+        "pipe",
+        "tubing"
+      ],
+      "material": "plastic"
+    },
+    "glass-bottle": {
+      "display_name": "Glass Bottle",
+      "keywords": [
+        "beer",
+        "beverage",
+        "wine",
+        "drink"
+      ],
+      "material": "glass"
+    },
+    "glass-jar": {
+      "display_name": "Glass Jar",
+      "keywords": [
+        "mason"
+      ],
+      "material": "glass"
+    },
+    "glue": {
+      "display_name": "Glue",
+      "keywords": [
+        "sticky",
+        "elmer's"
+      ],
+      "material": "other"
+    },
+    "grains": {
+      "display_name": "Grains",
+      "keywords": [
+        "cereal",
+        "bread",
+        "baguette",
+        "pasta",
+        "rice"
+      ],
+      "material": "organic"
+    },
+    "greeting-card": {
+      "display_name": "Greeting Card",
+      "keywords": [],
+      "material": "paper"
+    },
+    "gum": {
+      "display_name": "Gum",
+      "keywords": [
+        "chewing"
+      ],
+      "material": "other"
+    },
+    "hair": {
+      "display_name": "Hair",
+      "keywords": [
+        "human",
+        "pet",
+        "fur"
+      ],
+      "material": "other"
+    },
+    "hand-sanitizer-bottle": {
+      "display_name": "Hand Sanitizer Bottle",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "headphones-earbuds": {
+      "display_name": "Headphones & Earbuds",
+      "keywords": [
+        "airpods",
+        "headset",
+        "earphones"
+      ],
+      "material": "other"
+    },
+    "hot-beverage-cup": {
+      "display_name": "Hot Beverage Cup",
+      "keywords": [
+        "coffee",
+        "tea",
+        "starbucks"
+      ],
+      "material": "paper"
+    },
+    "house-plants": {
+      "display_name": "House Plants",
+      "keywords": [],
+      "material": "organic"
+    },
+    "household-cleaner-jug": {
+      "display_name": "Household Cleaner Jug",
+      "keywords": [
+        "bleach",
+        "soap",
+        "cleaner",
+        "lysol"
+      ],
+      "material": "plastic"
+    },
+    "ice-cream-carton": {
+      "display_name": "Ice Cream Carton",
+      "keywords": [],
+      "material": "paper"
+    },
+    "inhaler": {
+      "display_name": "Inhaler",
+      "keywords": [
+        "puffer",
+        "asthma",
+        "ventolin"
+      ],
+      "material": "other"
+    },
+    "ink-toner-cartridges": {
+      "display_name": "Ink/Toner Cartridges",
+      "keywords": [
+        "printer"
+      ],
+      "material": "other"
+    },
+    "jar-lid-metal": {
+      "display_name": "Jar Lid (metal)",
+      "keywords": [
+        "canning",
+        "mason",
+        "lid"
+      ],
+      "material": "metal"
+    },
+    "jewelry": {
+      "display_name": "Jewelry",
+      "keywords": [
+        "ring",
+        "necklace",
+        "earrings",
+        "bracelet",
+        "costume"
+      ],
+      "material": "other"
+    },
+    "keyboards-computer": {
+      "display_name": "Keyboards (computer)",
+      "keywords": [],
+      "material": "other"
+    },
+    "keys": {
+      "display_name": "Keys",
+      "keywords": [
+        "keychain",
+        "key ring"
+      ],
+      "material": "metal"
+    },
+    "kitchen-sponge": {
+      "display_name": "Kitchen Sponge",
+      "keywords": [
+        "sponge",
+        "scrubber",
+        "scouring pad"
+      ],
+      "material": "other"
+    },
+    "laminated-paper": {
+      "display_name": "Laminated Paper",
+      "keywords": [
+        "plastic-coated",
+        "menu",
+        "badge",
+        "pouch"
+      ],
+      "material": "other"
+    },
+    "latex-gloves": {
+      "display_name": "Latex Gloves",
+      "keywords": [
+        "rubber"
+      ],
+      "material": "other"
+    },
+    "laundry-detergent-jug": {
+      "display_name": "Laundry Detergent Jug",
+      "keywords": [
+        "soap"
+      ],
+      "material": "plastic"
+    },
+    "lightbulbs-flourescent": {
+      "display_name": "Lightbulbs (flourescent)",
+      "keywords": [],
+      "material": "other"
+    },
+    "lightbulbs-led-incandescent": {
+      "display_name": "Lightbulbs (LED & Incandescent)",
+      "keywords": [],
+      "material": "other"
+    },
+    "loose-paper": {
+      "display_name": "Loose Paper",
+      "keywords": [
+        "letter"
+      ],
+      "material": "paper"
+    },
+    "magazine": {
+      "display_name": "Magazine",
+      "keywords": [],
+      "material": "paper"
+    },
+    "make-up-pads": {
+      "display_name": "Make-Up Pads",
+      "keywords": [
+        "cotton"
+      ],
+      "material": "other"
+    },
+    "matches": {
+      "display_name": "Matches",
+      "keywords": [
+        "matchbook",
+        "matchstick"
+      ],
+      "material": "other"
+    },
+    "mattress": {
+      "display_name": "Mattress",
+      "keywords": [
+        "bed",
+        "box spring",
+        "foam"
+      ],
+      "material": "other"
+    },
+    "meat": {
+      "display_name": "Meat",
+      "keywords": [
+        "steak",
+        "beef",
+        "chicken",
+        "pork",
+        "lamb"
+      ],
+      "material": "organic"
+    },
+    "medication": {
+      "display_name": "Medication",
+      "keywords": [
+        "medicine"
+      ],
+      "material": "other"
+    },
+    "medication-bottle-plastic": {
+      "display_name": "Medication Bottle (plastic)",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "mercury-thermometer": {
+      "display_name": "Mercury Thermometer",
+      "keywords": [
+        "thermometer",
+        "mercury",
+        "fever"
+      ],
+      "material": "other"
+    },
+    "metal-cutlery-cookware": {
+      "display_name": "Metal Cutlery & Cookware",
+      "keywords": [
+        "fork",
+        "knife",
+        "spoon",
+        "pot",
+        "pan",
+        "skillet"
+      ],
+      "material": "metal"
+    },
+    "metal-tin": {
+      "display_name": "Metal Tin",
+      "keywords": [
+        "can",
+        "coffee",
+        "cookie",
+        "tea"
+      ],
+      "material": "metal"
+    },
+    "monitors": {
+      "display_name": "Monitors/TVs",
+      "keywords": [
+        "screen",
+        "TV"
+      ],
+      "material": "other"
+    },
+    "mop-sheets": {
+      "display_name": "Mop Sheets",
+      "keywords": [],
+      "material": "other"
+    },
+    "motor-oil": {
+      "display_name": "Motor Oil",
+      "keywords": [
+        "car"
+      ],
+      "material": "other"
+    },
+    "mouse-computer": {
+      "display_name": "Mouse (computer)",
+      "keywords": [],
+      "material": "other"
+    },
+    "mouthwash-bottle-plastic": {
+      "display_name": "Mouthwash Bottle (plastic)",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "muffin-cups-paper": {
+      "display_name": "Muffin Cups (paper)",
+      "keywords": [
+        "cupcake"
+      ],
+      "material": "paper"
+    },
+    "nail-clippings": {
+      "display_name": "Nail Clippings",
+      "keywords": [
+        "nails"
+      ],
+      "material": "other"
+    },
+    "napkins-paper": {
+      "display_name": "Napkins (paper)",
+      "keywords": [],
+      "material": "paper"
+    },
+    "newspaper": {
+      "display_name": "Newspaper",
+      "keywords": [],
+      "material": "paper"
+    },
+    "newspaper-bag-plastic": {
+      "display_name": "Newspaper/Flyer Bag (plastic)",
+      "keywords": [
+        "coupon",
+        "paper"
+      ],
+      "material": "paper"
+    },
+    "notepad": {
+      "display_name": "Notepad",
+      "keywords": [],
+      "material": "paper"
+    },
+    "nuts": {
+      "display_name": "Nuts",
+      "keywords": [
+        "peanuts",
+        "cashews",
+        "almonds"
+      ],
+      "material": "organic"
+    },
+    "nutshells": {
+      "display_name": "Nutshells",
+      "keywords": [
+        "shells"
+      ],
+      "material": "organic"
+    },
+    "overwrap-beverage-containers": {
+      "display_name": "Overwrap (beverage containers)",
+      "keywords": [
+        "water",
+        "bottle"
+      ],
+      "material": "plastic"
+    },
+    "overwrap-paper-towel-toilet-paper": {
+      "display_name": "Overwrap (paper towel & toilet paper)",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "paint": {
+      "display_name": "Paint",
+      "keywords": [
+        "watercolor",
+        "acrylic"
+      ],
+      "material": "other"
+    },
+    "paint-can-empty": {
+      "display_name": "Paint Can (empty)",
+      "keywords": [
+        "tin",
+        "metal can",
+        "primer"
+      ],
+      "material": "metal"
+    },
+    "paper-bag": {
+      "display_name": "Paper Bag",
+      "keywords": [
+        "kraft",
+        "brown",
+        "produce"
+      ],
+      "material": "paper"
+    },
+    "paper-coffee-filters": {
+      "display_name": "Paper Coffee Filters",
+      "keywords": [],
+      "material": "paper"
+    },
+    "paper-plate": {
+      "display_name": "Paper Plate",
+      "keywords": [],
+      "material": "paper"
+    },
+    "paper-straw": {
+      "display_name": "Paper Straw",
+      "keywords": [
+        "straw",
+        "drinking",
+        "compostable"
+      ],
+      "material": "paper"
+    },
+    "paper-towel-tube": {
+      "display_name": "Paper Towel Tube",
+      "keywords": [
+        "toilet"
+      ],
+      "material": "cardboard"
+    },
+    "paper-towels": {
+      "display_name": "Paper Towels",
+      "keywords": [
+        "napkin"
+      ],
+      "material": "paper"
+    },
+    "parchment-wax-paper": {
+      "display_name": "Parchment & Wax Paper",
+      "keywords": [
+        "baking paper",
+        "waxed",
+        "greaseproof"
+      ],
+      "material": "paper"
+    },
+    "pasta": {
+      "display_name": "Pasta",
+      "keywords": [],
+      "material": "organic"
+    },
+    "pens-markers": {
+      "display_name": "Pens & Markers",
+      "keywords": [
+        "pen",
+        "marker",
+        "highlighter",
+        "sharpie"
+      ],
+      "material": "plastic"
+    },
+    "personal-protective-equipment": {
+      "display_name": "Personal Protective Equipment",
+      "keywords": [
+        "gloves",
+        "masks"
+      ],
+      "material": "other"
+    },
+    "pesticides": {
+      "display_name": "Pesticides",
+      "keywords": [
+        "chemicals",
+        "insecticide",
+        "herbicide"
+      ],
+      "material": "other"
+    },
+    "pet-cage-bedding": {
+      "display_name": "Pet Cage Bedding",
+      "keywords": [
+        "litter",
+        "cat",
+        "bunny",
+        "rabbit"
+      ],
+      "material": "other"
+    },
+    "pet-food-bag": {
+      "display_name": "Pet Food Bag",
+      "keywords": [
+        "dog",
+        "cat"
+      ],
+      "material": "other"
+    },
+    "pet-waste": {
+      "display_name": "Pet Waste",
+      "keywords": [
+        "dog",
+        "cat",
+        "bunny",
+        "rabbit",
+        "litter"
+      ],
+      "material": "other"
+    },
+    "photographs": {
+      "display_name": "Photographs",
+      "keywords": [
+        "photo",
+        "print",
+        "picture"
+      ],
+      "material": "other"
+    },
+    "pie-plate-aluminum": {
+      "display_name": "Pie Plate (aluminum)",
+      "keywords": [
+        "tin"
+      ],
+      "material": "metal"
+    },
+    "pillows-cushions": {
+      "display_name": "Pillows & Cushions",
+      "keywords": [
+        "pillow",
+        "cushion",
+        "duvet",
+        "comforter"
+      ],
+      "material": "other"
+    },
+    "pizza-box": {
+      "display_name": "Pizza Box",
+      "keywords": [],
+      "material": "cardboard"
+    },
+    "plant-pot-plastic": {
+      "display_name": "Plant Pot (plastic)",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "plastic-beverage-bottle": {
+      "display_name": "Plastic Beverage Bottle",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "plastic-beverage-cup": {
+      "display_name": "Plastic Beverage Cup",
+      "keywords": [
+        "starbucks",
+        "cold"
+      ],
+      "material": "plastic"
+    },
+    "plastic-bucket-tote": {
+      "display_name": "Plastic Bucket & Storage Tote",
+      "keywords": [
+        "pail",
+        "bin",
+        "container",
+        "tub"
+      ],
+      "material": "plastic"
+    },
+    "plastic-cutlery": {
+      "display_name": "Plastic Cutlery",
+      "keywords": [
+        "fork",
+        "knife",
+        "spoon",
+        "utensil",
+        "spork"
+      ],
+      "material": "plastic"
+    },
+    "plastic-gift-bag": {
+      "display_name": "Plastic Gift Bag",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "plastic-grocery-bag": {
+      "display_name": "Plastic Grocery Bag",
+      "keywords": [
+        "shopping",
+        "carrier",
+        "retail",
+        "checkout"
+      ],
+      "material": "plastic"
+    },
+    "plastic-hanger": {
+      "display_name": "Plastic Hanger",
+      "keywords": [
+        "clothes",
+        "coat",
+        "hanger"
+      ],
+      "material": "plastic"
+    },
+    "plastic-jar": {
+      "display_name": "Plastic Jar",
+      "keywords": [],
+      "material": "plastic"
+    },
+    "plastic-straw": {
+      "display_name": "Plastic Straw",
+      "keywords": [
+        "straw",
+        "drinking"
+      ],
+      "material": "plastic"
+    },
+    "plastic-toys": {
+      "display_name": "Plastic Toys",
+      "keywords": [
+        "toy",
+        "lego",
+        "doll",
+        "action figure"
+      ],
+      "material": "plastic"
+    },
+    "popsicle-sticks": {
+      "display_name": "Popsicle Sticks",
+      "keywords": [
+        "wood"
+      ],
+      "material": "organic"
+    },
+    "poultry": {
+      "display_name": "Poultry",
+      "keywords": [
+        "chicken"
+      ],
+      "material": "organic"
+    },
+    "power-tools": {
+      "display_name": "Power Tools",
+      "keywords": [
+        "drill",
+        "saw",
+        "sander",
+        "cordless"
+      ],
+      "material": "other"
+    },
+    "prescription-bag-paper": {
+      "display_name": "Prescription Bag (paper)",
+      "keywords": [],
+      "material": "paper"
+    },
+    "printers": {
+      "display_name": "Printers",
+      "keywords": [],
+      "material": "other"
+    },
+    "produce-bag": {
+      "display_name": "Produce Bag (flexible plastic)",
+      "keywords": [
+        "deli",
+        "pouch"
+      ],
+      "material": "plastic"
+    },
+    "propane-canister": {
+      "display_name": "Propane Canister",
+      "keywords": [
+        "camping",
+        "cylinder",
+        "butane",
+        "fuel"
+      ],
+      "material": "metal"
+    },
+    "receipt-thermal": {
+      "display_name": "Receipt (thermal paper)",
+      "keywords": [
+        "receipt",
+        "till slip",
+        "BPA"
+      ],
+      "material": "paper"
+    },
+    "remote-controls": {
+      "display_name": "Remote Controls",
+      "keywords": [
+        "remote",
+        "clicker",
+        "TV remote"
+      ],
+      "material": "other"
+    },
+    "rice": {
+      "display_name": "Rice",
+      "keywords": [],
+      "material": "organic"
+    },
+    "rubber-bands": {
+      "display_name": "Rubber Bands",
+      "keywords": [
+        "elastic",
+        "band"
+      ],
+      "material": "other"
+    },
+    "sauce-carton": {
+      "display_name": "Sauce Carton",
+      "keywords": [
+        "soup"
+      ],
+      "material": "cardboard"
+    },
+    "sawdust-wood-scraps": {
+      "display_name": "Sawdust & Wood Scraps",
+      "keywords": [
+        "wood",
+        "shavings",
+        "offcuts",
+        "lumber"
+      ],
+      "material": "organic"
+    },
+    "scrap-metal-hardware": {
+      "display_name": "Scrap Metal & Hardware",
+      "keywords": [
+        "nails",
+        "screws",
+        "bolts",
+        "wire",
+        "brackets"
+      ],
+      "material": "metal"
+    },
+    "shampoo-bottle": {
+      "display_name": "Shampoo Bottle",
+      "keywords": [
+        "conditioner",
+        "shower",
+        "lotion",
+        "soap"
+      ],
+      "material": "plastic"
+    },
+    "shellfish": {
+      "display_name": "Shellfish",
+      "keywords": [
+        "lobster",
+        "crab",
+        "seafood"
+      ],
+      "material": "organic"
+    },
+    "shoe-box": {
+      "display_name": "Shoe Box",
+      "keywords": [],
+      "material": "cardboard"
+    },
+    "shoes": {
+      "display_name": "Shoes",
+      "keywords": [
+        "sneakers",
+        "boots",
+        "sandals",
+        "footwear"
+      ],
+      "material": "other"
+    },
+    "shredded-paper": {
+      "display_name": "Shredded Paper",
+      "keywords": [],
+      "material": "paper"
+    },
+    "six-pack-rings": {
+      "display_name": "Six-Pack Rings",
+      "keywords": [
+        "beer",
+        "soda",
+        "rings",
+        "yoke"
+      ],
+      "material": "plastic"
+    },
+    "small-appliances": {
+      "display_name": "Small Appliances",
+      "keywords": [
+        "microwave",
+        "kettle",
+        "toaster",
+        "blender",
+        "mixer"
+      ],
+      "material": "other"
+    },
+    "smoke-detector": {
+      "display_name": "Smoke Detector",
+      "keywords": [
+        "alarm",
+        "carbon monoxide",
+        "detector"
+      ],
+      "material": "other"
+    },
+    "snack-wrapper": {
+      "display_name": "Snack Wrapper",
+      "keywords": [
+        "wrappers"
+      ],
+      "material": "other"
+    },
+    "solid-styrofoam-packaging": {
+      "display_name": "Solid Styrofoam Packaging",
+      "keywords": [],
+      "material": "styrofoam"
+    },
+    "sports-equipment": {
+      "display_name": "Sports Balls & Equipment",
+      "keywords": [
+        "ball",
+        "racket",
+        "bat",
+        "skates",
+        "gear"
+      ],
+      "material": "other"
+    },
+    "sticky-notes": {
+      "display_name": "Sticky Notes",
+      "keywords": [
+        "post-it",
+        "memo",
+        "notes"
+      ],
+      "material": "paper"
+    },
+    "styrofoam-beverage-cup": {
+      "display_name": "Styrofoam Beverage Cup",
+      "keywords": [
+        "coffee",
+        "tea"
+      ],
+      "material": "styrofoam"
+    },
+    "styrofoam-bowl": {
+      "display_name": "Styrofoam Bowl",
+      "keywords": [],
+      "material": "styrofoam"
+    },
+    "styrofoam-food-container": {
+      "display_name": "Styrofoam Food Container",
+      "keywords": [],
+      "material": "styrofoam"
+    },
+    "styrofoam-meat-tray": {
+      "display_name": "Styrofoam Meat Tray",
+      "keywords": [],
+      "material": "styrofoam"
+    },
+    "styrofoam-packing-pellets": {
+      "display_name": "Styrofoam Packing Pellets",
+      "keywords": [],
+      "material": "styrofoam"
+    },
+    "styrofoam-plate": {
+      "display_name": "Styrofoam Plate",
+      "keywords": [],
+      "material": "styrofoam"
+    },
+    "syringes-sharps": {
+      "display_name": "Syringes & Sharps",
+      "keywords": [
+        "needle",
+        "lancet",
+        "sharps",
+        "injection"
+      ],
+      "material": "other"
+    },
+    "tablets": {
+      "display_name": "Tablets",
+      "keywords": [
+        "iPad",
+        "tablet",
+        "device"
+      ],
+      "material": "other"
+    },
+    "tea-bags": {
+      "display_name": "Tea Bags",
+      "keywords": [],
+      "material": "organic"
+    },
+    "tires": {
+      "display_name": "Tires",
+      "keywords": [
+        "tyre",
+        "wheel",
+        "rubber",
+        "car"
+      ],
+      "material": "other"
+    },
+    "tissue-box": {
+      "display_name": "Tissue Box",
+      "keywords": [
+        "Kleenex"
+      ],
+      "material": "other"
+    },
+    "tissues": {
+      "display_name": "Tissues",
+      "keywords": [
+        "Kleenex"
+      ],
+      "material": "other"
+    },
+    "toilet-paper-tube": {
+      "display_name": "Toilet Paper Tube",
+      "keywords": [],
+      "material": "cardboard"
+    },
+    "toothbrush": {
+      "display_name": "Toothbrush",
+      "keywords": [
+        "brush",
+        "dental",
+        "electric"
+      ],
+      "material": "plastic"
+    },
+    "toothpaste-tube": {
+      "display_name": "Toothpaste Tube",
+      "keywords": [],
+      "material": "other"
+    },
+    "toothpicks": {
+      "display_name": "Toothpicks",
+      "keywords": [],
+      "material": "organic"
+    },
+    "umbrella": {
+      "display_name": "Umbrella",
+      "keywords": [
+        "parasol",
+        "brolly"
+      ],
+      "material": "other"
+    },
+    "vacuum-cleaner-bag": {
+      "display_name": "Vacuum Cleaner Bag",
+      "keywords": [
+        "hoover",
+        "dust bag",
+        "canister"
+      ],
+      "material": "other"
+    },
+    "vapes-e-cigarettes": {
+      "display_name": "Vapes & E-Cigarettes",
+      "keywords": [
+        "vape",
+        "e-cig",
+        "pod",
+        "juul",
+        "disposable",
+        "lithium"
+      ],
+      "material": "other"
+    },
+    "vegetable-peels": {
+      "display_name": "Vegetable Peels",
+      "keywords": [],
+      "material": "organic"
+    },
+    "vegetable-scraps": {
+      "display_name": "Vegetable Scraps",
+      "keywords": [],
+      "material": "organic"
+    },
+    "vegetables": {
+      "display_name": "Vegetables",
+      "keywords": [],
+      "material": "organic"
+    },
+    "wax": {
+      "display_name": "Wax",
+      "keywords": [
+        "candle"
+      ],
+      "material": "other"
+    },
+    "whole-fruits": {
+      "display_name": "Whole Fruits",
+      "keywords": [
+        "apple",
+        "banana",
+        "orange",
+        "pear",
+        "peach",
+        "plum",
+        "pineapple",
+        "mango"
+      ],
+      "material": "organic"
+    },
+    "window-mirror-glass": {
+      "display_name": "Window & Mirror Glass",
+      "keywords": [
+        "pane",
+        "mirror",
+        "glazing"
+      ],
+      "material": "glass"
+    },
+    "wine-corks": {
+      "display_name": "Wine Corks",
+      "keywords": [
+        "bottle"
+      ],
+      "material": "organic"
+    },
+    "wire-coat-hanger": {
+      "display_name": "Wire Coat Hanger",
+      "keywords": [
+        "hanger",
+        "clothes",
+        "dry cleaning"
+      ],
+      "material": "metal"
+    },
+    "wrapping-paper": {
+      "display_name": "Wrapping Paper & Gift Tissue",
+      "keywords": [
+        "gift wrap",
+        "present",
+        "tissue paper"
+      ],
+      "material": "paper"
+    },
+    "yard-waste": {
+      "display_name": "Yard Waste",
+      "keywords": [
+        "grass clippings",
+        "leaves",
+        "branches",
+        "twigs",
+        "garden"
+      ],
+      "material": "organic"
+    },
+    "yogurt-container": {
+      "display_name": "Yogurt Container",
+      "keywords": [
+        "cup"
+      ],
+      "material": "plastic"
+    },
+    "zip-top-bag": {
+      "display_name": "Zip-Top Food Bag",
+      "keywords": [
+        "ziploc",
+        "resealable",
+        "sandwich",
+        "freezer"
+      ],
+      "material": "plastic"
+    }
+  }
+}

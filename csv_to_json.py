@@ -26,6 +26,14 @@ version starts at 1.0.0 (patch-bumped from the existing file, if any).
 
 Item CSV columns (header row is discarded):
     ItemID, Display Name, Bin, Description
+
+ItemID keys into the global registry (items.json, see registry_to_json.py). The registry
+owns display names, so an item it defines is written without one; the CSV's Display Name
+is only kept for keys the registry doesn't know, and those are listed on each run.
+
+`notices` and `plastics` (a region's published alerts and its per-resin-code plastics
+verdicts) have no Notion source yet and are hand-edited directly in the output JSON; a
+re-run of this script carries whatever is already in those two fields forward unchanged.
 """
 
 import csv
@@ -198,9 +206,27 @@ def parse_metadata(md_path):
     return found
 
 
-def convert(rows):
-    """Build the id -> item mapping from an iterable of CSV rows."""
+def load_registry():
+    """The global item registry (items.json, from registry_to_json.py), or {} if absent."""
+    path = os.path.join(SCRIPT_DIR, "items.json")
+    if not os.path.exists(path):
+        print("  Warning: items.json not found; every item will carry its own display_name")
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f).get("items", {})
+
+
+def convert(rows, registry):
+    """Build the id -> item mapping from an iterable of CSV rows.
+
+    The registry owns display names: an item it defines is written as {bin, description}
+    only, so two regions can't drift apart on what to call the same thing. An item the
+    registry doesn't know keeps the CSV's display_name (there's nothing else to show) and
+    is reported, since it's a key that should either be added to the registry or mapped to
+    an existing one.
+    """
     items = {}
+    unknown = []
     for line_no, row in enumerate(rows, start=2):
         if not row or not any(field.strip() for field in row):
             continue
@@ -215,11 +241,18 @@ def convert(rows):
         if item_id in items:
             raise ValueError(f"line {line_no}: duplicate ItemID {item_id!r}")
 
-        items[item_id] = {
-            "display_name": display_name,
-            "bin": bin_name,
-            "description": description,
-        }
+        item = {}
+        if item_id not in registry:
+            item["display_name"] = display_name
+            unknown.append(item_id)
+        item["bin"] = bin_name
+        item["description"] = description
+        items[item_id] = item
+
+    if unknown:
+        print(f"  {len(unknown)} item(s) not in the registry keep their own display_name:")
+        for item_id in unknown:
+            print(f"    {item_id}")
     return items
 
 
@@ -237,6 +270,24 @@ def default_output_path(location_path, provider_type="municipal", provider_id=""
         )
     leaf = location_path[-1]
     return os.path.join(SCRIPT_DIR, "data", *location_path, f"{leaf}.json")
+
+
+# Fields this script doesn't know how to generate from a Notion export (there's no CSV/md
+# source for them yet) but that an existing output file may already carry, hand-edited.
+# Re-running the converter must not silently drop them.
+HAND_MAINTAINED_FIELDS = ("notices", "plastics")
+
+
+def carry_forward_hand_maintained(out_path):
+    """Pull hand-maintained fields from an existing output file, if any, unchanged."""
+    if not os.path.exists(out_path):
+        return {}
+    try:
+        with open(out_path, encoding="utf-8") as f:
+            existing = json.load(f)
+    except (OSError, ValueError, json.JSONDecodeError):
+        return {}
+    return {field: existing[field] for field in HAND_MAINTAINED_FIELDS if field in existing}
 
 
 def next_version(out_path):
@@ -281,7 +332,7 @@ def main(argv):
         with open(csv_path, newline="", encoding="utf-8-sig") as f:
             reader = csv.reader(f)
             next(reader, None)  # discard header row
-            items = convert(reader)
+            items = convert(reader, load_registry())
 
     out_path = confirm_output_path(
         default_output_path(meta["location_path"], meta["provider_type"], meta["provider_id"])
@@ -296,6 +347,7 @@ def main(argv):
         "last_updated": date.today().isoformat(),
         "version": next_version(out_path),
         "location_path": meta["location_path"],
+        **carry_forward_hand_maintained(out_path),
         "items": items,
     }
 

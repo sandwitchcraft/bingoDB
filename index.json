@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-09-05",
   "regions": [
     {
       "id": "canada/ontario/durham",
@@ -8,8 +8,8 @@
       "level": "region",
       "path": ["canada", "ontario", "durham"],
       "parents": ["Canada", "Ontario"],
-      "version": "1.0.0",
-      "last_updated": "2026-07-22",
+      "version": "1.0.1",
+      "last_updated": "2026-09-05",
       "url": "data/canada/ontario/durham/durham.json"
     },
     {
@@ -18,8 +18,8 @@
       "level": "region",
       "path": ["canada", "ontario", "halton"],
       "parents": ["Canada", "Ontario"],
-      "version": "1.0.1",
-      "last_updated": "2026-07-23",
+      "version": "1.0.2",
+      "last_updated": "2026-09-05",
       "url": "data/canada/ontario/halton/halton.json"
     },
     {
@@ -28,8 +28,8 @@
       "level": "municipality",
       "path": ["canada", "ontario", "ottawa"],
       "parents": ["Canada", "Ontario"],
-      "version": "1.0.0",
-      "last_updated": "2026-07-22",
+      "version": "1.0.1",
+      "last_updated": "2026-09-05",
       "url": "data/canada/ontario/ottawa/ottawa.json"
     },
     {
@@ -38,8 +38,8 @@
       "level": "region",
       "path": ["canada", "ontario", "peel"],
       "parents": ["Canada", "Ontario"],
-      "version": "1.0.0",
-      "last_updated": "2026-07-22",
+      "version": "1.0.1",
+      "last_updated": "2026-09-05",
       "url": "data/canada/ontario/peel/peel.json"
     },
     {
@@ -48,8 +48,8 @@
       "level": "municipality",
       "path": ["canada", "ontario", "toronto"],
       "parents": ["Canada", "Ontario"],
-      "version": "1.0.0",
-      "last_updated": "2026-07-23",
+      "version": "1.0.1",
+      "last_updated": "2026-09-05",
       "url": "data/canada/ontario/toronto/toronto.json"
     },
     {
@@ -61,8 +61,8 @@
       "provider_type": "commercial",
       "provider_id": "republic-services",
       "provider_name": "Republic Services / WasteCo",
-      "version": "1.0.0",
-      "last_updated": "2026-07-25",
+      "version": "1.0.1",
+      "last_updated": "2026-09-05",
       "url": "data/canada/ontario/providers/republic-services/republic-services.json"
     }
   ]
